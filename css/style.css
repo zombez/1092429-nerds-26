@@ -2,8 +2,10 @@ header {
 background-color: #DCDCDC;
   }
 
-.main-nav-item  {
+.main-nav-link  {
  color: #000000;
- list-style: none;
  text-decoration: none;
  }
+.main-nav-item {
+list-style: none;
+}
