@@ -1,1 +1,8 @@
-
+header {
+background-color: #DCDCDC;
+  }
+header  li {
+ color: #000000;
+ list-style: none;
+ text-decoration: none;
+ }
