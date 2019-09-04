@@ -1,7 +1,8 @@
 header {
 background-color: #DCDCDC;
   }
-header  li {
+
+.main-nav-item  {
  color: #000000;
  list-style: none;
  text-decoration: none;
