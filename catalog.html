@@ -30,7 +30,6 @@
          <h1 class="main-caption">Магазин готовых шаблонов</h1>
      </header>
        <main>
-        <h3 class="">стоимость:</h3>
         <h3 class="">сортировать:</h3>
         <div class="">
           <a href="#">по цене</a>
@@ -40,8 +39,10 @@
           <a href="#">вниз</a>
         </div>
          <section class="first-dox">
+           <h3 class="">стоимость:</h3>
            <form class="" action="index.html" method="post">
-             <p>сетка:</p>
+             <fieldset class="form__fieldset">
+                <legend class="form__legend">сетка:</legend>
              <label>
               <input type="radio" name="question-one" value="Адаптивная" checked>
               Адаптивная
@@ -49,6 +50,7 @@
               Фиксированная
               <input type="radio" name="question-one" value="Резиновая">
               Резиновая
+              </fieldset>
              </label>
              <p>особенности:</p>
              <input type="checkbox" name="subscribe" id="subscribe-field" checked>
