@@ -34,7 +34,6 @@
        <main class="page-main">
          <div class="content-scroll">
           <h2 class="visually-hidden">Фильтр работ</h2>
-          <h3 class="title-cost">стоимость:</h3>
           <h3 class="title-sort">сортировать:</h3>
            <ul class="scroll-list">
             <li class="scroll-item">
@@ -57,9 +56,14 @@
 
          <section class="main-section">
            <form class="cost-form" action="index.html" method="post">
+            <fieldset class="form-fieldset">
+              <legend class="form-legend">стоимость</legend>
              <div class='slider'>
                <button class="slider-button1" type="button"></button>
                <button class="slider-button2" type="button"></button>
+             </div>
+             <div class="strip">
+
              </div>
               <label class="field-from">
                <input class="field-from-imput" type="text" name="from" placeholder="0">
@@ -69,6 +73,7 @@
                <input class="field-before-imput" type="text" name="before" placeholder="15 000">
                <span class="field-before-text">до</span>
               </label>
+            </fieldset>
 
               <fieldset class="form-fieldset">
                <legend class="form-legend">сетка:</legend>
