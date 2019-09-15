@@ -64,11 +64,11 @@
                <div class="strip"></div>
              </div>
               <label class="field-from">
-               <input class="field-from-imput" type="number" name="name min-price" value="1">
+               <input class="field-from-imput" type="number" name="min-price" value="1">
                <span class="field-from-text">от</span>
               </label>
               <label class="field-before">
-               <input class="field-before-imput" type="number" name="max-price" value="15 000">
+               <input class="field-before-imput" type="number" name="max-price" value="15000">
                <span class="field-before-text">до</span>
               </label>
             </fieldset>
@@ -144,27 +144,6 @@
            </div>
             </section>
             <div class="maps">
-              <div class="catalog-window">
-               <form class="window-form" action="" method="post">
-                 <button class="cross" type="button"></button>
-                <fieldset class="form-fieldset">
-                 <legend class="form-legend">Напишите нам</legend>
-                  <label class="field-window">
-                    <input class="field-window-imput" type="text" name="fullname" placeholder="Имя Фамилия">
-                     <span class="field-window-text">Ваше имя:</span>
-                  </label>
-                  <label class="field-window">
-                    <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
-                     <span class="field-window-text">Ваш e-mail:</span>
-                  </label>
-                  <label class="field-window">
-                    <input class="field-window-input" type="text" name="letter" placeholder="В свободной форме">
-                     <span class="field-window-text">Текст письма:</span>
-                  </label>
-                  <button class="button" type="submit">отправить</button>
-                </fieldset>
-               </form>
-              </div>
              здесь будет карта
             </div>
        </main>
@@ -178,5 +157,26 @@
           <li class="socials-item"><a href="https://instagram.com" aria-label="Инстаграм">Инстаграм</a></li>
          </ul>
        </footer>
+       <div class="catalog-window">
+        <form class="window-form" action="" method="post">
+         <fieldset class="form-fieldset">
+          <legend class="form-legend">Напишите нам</legend>
+           <label class="field-window">
+             <input class="field-window-imput" type="text" name="fullname" placeholder="Имя Фамилия">
+              <span class="field-window-text">Ваше имя:</span>
+           </label>
+           <label class="field-window">
+             <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
+              <span class="field-window-text">Ваш e-mail:</span>
+           </label>
+           <label class="field-window">
+             <textarea class="field-window-input" type="text" name="letter" placeholder="В свободной форме"></textarea>
+              <span class="field-window-text">Текст письма:</span>
+           </label>
+           <button class="button" type="submit">отправить</button>
+         </fieldset>
+        </form>
+         <button class="cross" type="button">крестик</button>
+       </div>
        </body>
        </html>
