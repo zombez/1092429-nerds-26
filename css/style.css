@@ -55,9 +55,11 @@ list-style: none;
   font-size: 55px;
   text-align: left;
   font-weight: bold;
+  line-height: 1;
 }
 .main-subtitle p {
   text-align: left;
+  line-height: 1.5;
   color: #283136;
 }
 /* блок вебсайтов */
@@ -80,27 +82,33 @@ list-style: none;
 .applications-title,
 .presentation-title {
   font-size: 24px;
+  line-height: 1.25;
 }
 .web-subtitle,
 .applications-subtitle,
 .presentation-subtitle {
   color: #283136;
+  line-height: 1.5;
 }
 /* блок о нас */
 .information-slogan {
   font-size: 45px;
+  line-height: 1;
 }
 .information-subtitle {
   color: #283136;
+  line-height: 1.5;
 }
 .development-title {
   color: #283136;
   font-weight: bold;
+  line-height: 1.5;
   }
   .development-list,
   .development-item {
     color: #283136;
     list-style: none;
+    line-height: 1.5;
   }
   .image-sign {
     width: 360px;
@@ -110,6 +118,7 @@ list-style: none;
 .stability-slogan {
   text-align: center;
   font-weight: bold;
+  line-height: 1.5;
   color: #000000;
 }
 .stability-list,
@@ -118,15 +127,19 @@ list-style: none;
 }
 .scroll {
   font-size: 45px;
+  line-height: 0.22;
 }
 .scroll-text {
+  line-height: 1.13;
   color: #283136;
 }
 /* подвал */
 .footer-title {
   font-size: 36px;
+  line-height: 1;
 }
 .footer-subtitle {
+  line-height: 1.38;
   color: #444444;
 }
 .socials-list,
