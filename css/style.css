@@ -39,12 +39,6 @@ text-decoration: none;
 header {
 background-color: #eeeeee;
 }
-/* логотип */
-.logo-img {
-width: 160px;
-height: 65px;
-object-fit: contain;
-}
 /* навигация */
 .main-nav,
 .main-nav-list {
@@ -62,27 +56,24 @@ list-style: none;
   line-height: 1.5;
   color: #283136;
 }
-.slogan .button {
+/* кнопка шапки */
+.discover  {
   background-color: #fb565a;
   line-height: 1.13;
   color: #ffffff;
 }
+.discover:hover {
+  background-color: #e74246;
+  line-height: 1.13;
+  color: #ffffff;
+}
+.discover:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 1.13;
+}
 /* блок вебсайтов */
-.image-web {
-  width: 300px;
-  height: 146px;
-  object-fit: contain;
-}
-.image-applications {
-  width: 300px;
-  height: 146px;
-  object-fit: contain;
-}
-.image-presentation {
-  width: 300px;
-  height: 146px;
-  object-fit: contain;
-}
+
 .web-title,
 .applications-title,
 .presentation-title {
@@ -96,17 +87,17 @@ list-style: none;
   line-height: 1.5;
   }
   /* кнопки web */
-  .services-web .button {
+  .web {
     background-color: #fb565a;
     color: #ffffff;
     line-height: 1.13;
   }
-  .services-applications .button {
+  .applications {
     background-color: #00ca74;
     color: #ffffff;
     line-height: 1.13;
   }
-  .services-presentation .button {
+  .presentation {
     background-color: #efc84a;
     color: #ffffff;
     line-height: 1.13;
@@ -131,11 +122,7 @@ list-style: none;
     list-style: none;
     line-height: 1.5;
   }
-  .image-sign {
-    width: 360px;
-    height: 208px;
-    object-fit: contain;
-  }
+
 .stability-slogan {
   text-align: center;
   font-weight: bold;
