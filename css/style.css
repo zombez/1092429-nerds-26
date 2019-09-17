@@ -62,6 +62,11 @@ list-style: none;
   line-height: 1.5;
   color: #283136;
 }
+.slogan .button {
+  background-color: #fb565a;
+  line-height: 1.13;
+  color: #ffffff;
+}
 /* блок вебсайтов */
 .image-web {
   width: 300px;
@@ -89,7 +94,23 @@ list-style: none;
 .presentation-subtitle {
   color: #283136;
   line-height: 1.5;
-}
+  }
+  /* кнопки web */
+  .services-web .button {
+    background-color: #fb565a;
+    color: #ffffff;
+    line-height: 1.13;
+  }
+  .services-applications .button {
+    background-color: #00ca74;
+    color: #ffffff;
+    line-height: 1.13;
+  }
+  .services-presentation .button {
+    background-color: #efc84a;
+    color: #ffffff;
+    line-height: 1.13;
+  }
 /* блок о нас */
 .information-slogan {
   font-size: 45px;
