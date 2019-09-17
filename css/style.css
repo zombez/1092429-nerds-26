@@ -1,7 +1,35 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v20-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
 body {
 margin: 0;
 padding: 0;
-font-family: "Roboto", Arial, sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 color: #000000;
 }
@@ -27,10 +55,17 @@ list-style: none;
   font-size: 55px;
   text-align: left;
   font-weight: bold;
+  line-height: 1;
 }
 .main-subtitle p {
   text-align: left;
+  line-height: 1.5;
   color: #283136;
+}
+.slogan .button {
+  background-color: #fb565a;
+  line-height: 1.13;
+  color: #ffffff;
 }
 /* блок вебсайтов */
 .image-web {
@@ -52,27 +87,49 @@ list-style: none;
 .applications-title,
 .presentation-title {
   font-size: 24px;
+  line-height: 1.25;
 }
 .web-subtitle,
 .applications-subtitle,
 .presentation-subtitle {
   color: #283136;
-}
+  line-height: 1.5;
+  }
+  /* кнопки web */
+  .services-web .button {
+    background-color: #fb565a;
+    color: #ffffff;
+    line-height: 1.13;
+  }
+  .services-applications .button {
+    background-color: #00ca74;
+    color: #ffffff;
+    line-height: 1.13;
+  }
+  .services-presentation .button {
+    background-color: #efc84a;
+    color: #ffffff;
+    line-height: 1.13;
+  }
 /* блок о нас */
 .information-slogan {
   font-size: 45px;
+  line-height: 1;
 }
 .information-subtitle {
   color: #283136;
+  line-height: 1.5;
 }
 .development-title {
   color: #283136;
   font-weight: bold;
+  line-height: 1.5;
   }
   .development-list,
   .development-item {
     color: #283136;
     list-style: none;
+    line-height: 1.5;
   }
   .image-sign {
     width: 360px;
@@ -82,6 +139,7 @@ list-style: none;
 .stability-slogan {
   text-align: center;
   font-weight: bold;
+  line-height: 1.5;
   color: #000000;
 }
 .stability-list,
@@ -90,15 +148,19 @@ list-style: none;
 }
 .scroll {
   font-size: 45px;
+  line-height: 1;
 }
 .scroll-text {
+  line-height: 1.13;
   color: #283136;
 }
 /* подвал */
 .footer-title {
   font-size: 36px;
+  line-height: 1;
 }
 .footer-subtitle {
+  line-height: 1.38;
   color: #444444;
 }
 .socials-list,
