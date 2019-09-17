@@ -1,8 +1,106 @@
 body {
+margin: 0;
+padding: 0;
+font-family: "Roboto", Arial, sans-serif;
 font-size: 16px;
-font-family: Roboto;
+color: #000000;
+}
+a {
+text-decoration: none;
 }
 header {
 background-color: #DCDCDC;
 }
-
+/* логотип */
+.logo-img {
+width: 160px;
+height: 65px;
+object-fit: contain;
+}
+/* навигация */
+.main-nav,
+.main-nav-list {
+list-style: none;
+}
+/* о слогане */
+.main-slogan {
+  font-size: 55px;
+  text-align: left;
+  font-weight: bold;
+}
+.main-subtitle p {
+  text-align: left;
+  color: #283136;
+}
+/* блок вебсайтов */
+.image-web {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+.image-applications {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+.image-presentation {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+.web-title,
+.applications-title,
+.presentation-title {
+  font-size: 24px;
+}
+.web-subtitle,
+.applications-subtitle,
+.presentation-subtitle {
+  color: #283136;
+}
+/* блок о нас */
+.information-slogan {
+  font-size: 45px;
+}
+.information-subtitle {
+  color: #283136;
+}
+.development-title {
+  color: #283136;
+  font-weight: bold;
+  }
+  .development-list,
+  .development-item {
+    color: #283136;
+    list-style: none;
+  }
+  .image-sign {
+    width: 360px;
+    height: 208px;
+    object-fit: contain;
+  }
+.stability-slogan {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+.stability-list,
+.stability-item {
+  list-style: none;
+}
+.scroll {
+  font-size: 45px;
+}
+.scroll-text {
+  color: #283136;
+}
+.footer-title {
+  font-size: 36px;
+}
+.footer-subtitle {
+  color: #444444;
+}
+.socials-list,
+.socials-item {
+  list-style: none;
+}
