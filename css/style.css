@@ -228,7 +228,7 @@ header {
   color: #000000;
 }
 .field-radio-input {
-  background-image: url("img/radio-on.svg");
+  background-image: url("../img/radio-on.svg");
   background-color: #4d4d4d;
 }
 .field-radio-text {
@@ -236,7 +236,7 @@ header {
   color: #283136;
 }
 .field-checkbox-input {
-  background-image: url("img/checkbox-on.svg");
+  background-image: url("../img/checkbox-on.svg");
   background-color: #4d4d4d;
 }
 .field-checkbox-text {
