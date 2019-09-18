@@ -5,11 +5,9 @@
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local('Roboto'), local('Roboto-Regular'),
-       url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+
 }
 
 /* roboto-500 - latin_cyrillic */
@@ -19,11 +17,9 @@
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
   src: local('Roboto Medium'), local('Roboto-Medium'),
-       url('../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-v20-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
+
 }
 
 /* roboto-700 - latin_cyrillic */
@@ -33,11 +29,9 @@
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
   src: local('Roboto Bold'), local('Roboto-Bold'),
-       url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg'); /* Legacy iOS */
+
 }
 
 
@@ -164,10 +158,9 @@ header {
 }
 .development-title {
   color: #283136;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.5;
   }
-  .development-list,
   .development-item {
     color: #283136;
     list-style: none;
@@ -176,7 +169,7 @@ header {
 
 .stability-slogan {
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.5;
   color: #000000;
 }
@@ -218,3 +211,55 @@ header {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
+/* catalog */
+.main-title {
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #000000
+}
+.scroll-item {
+  list-style: none;
+}
+.form-legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+}
+.field-radio-input {
+  background-image: url("img/radio-on.svg");
+  background-color: #4d4d4d;
+}
+.field-radio-text {
+  line-height: 20px;
+  color: #283136;
+}
+.field-checkbox-input {
+  background-image: url("img/checkbox-on.svg");
+  background-color: #4d4d4d;
+}
+.field-checkbox-text {
+  line-height: 20px;
+  color: #283136;
+}
+.show {
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  }
+  .show:hover {
+  background-color: #dfdfdf;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  }
+  .show:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+  }
