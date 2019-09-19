@@ -282,6 +282,8 @@ header {
   line-height: 20px;
   color: #283136;
 }
+
+/* кнопка в форме */
 .show {
   font-weight: 500;
   line-height: 18px;
