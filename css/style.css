@@ -63,6 +63,32 @@ header {
   padding: 0;
   list-style: none;
 }
+.main-nav-link {
+  line-height: 30px;
+  color: #000000;
+}
+.main-nav-link:hover {
+  line-height: 30px;
+  color: #fb565a;
+}
+.main-nav-link:active {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* корзина */
+.basket {
+  line-height: 30px;
+  color: #000000;
+}
+.basket:hover {
+  line-height: 30px;
+  color: #fb565a;
+}
+.basket:active {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.3);
+}
 
 /* о слогане */
 .main-slogan {
@@ -213,6 +239,7 @@ header {
 
 /* catalog */
 
+/* заголовок */
 .main-title {
   font-size: 55px;
   line-height: 55px;
@@ -222,6 +249,25 @@ header {
 .scroll-item {
   list-style: none;
 }
+
+/* перчень названий */
+.scroll-link {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.scroll-link:hover {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.scroll-link:active {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/* форма */
 .form-legend {
   font-size: 18px;
   line-height: 30px;
