@@ -23,25 +23,28 @@
 
 }
 
-
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 html {
   box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
+  line-height: normal;
   text-align: left;
   color: #000000;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 a {
   text-decoration: none;
 }
-header {
+.page-header {
   display: flex;
   flex-direction: column;
   background-color: #eeeeee;
