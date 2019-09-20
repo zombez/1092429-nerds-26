@@ -42,10 +42,14 @@ a {
   text-decoration: none;
 }
 header {
+  display: flex;
+  flex-direction: column;
   background-color: #eeeeee;
 }
 /* логотип */
+.logo-img {
 
+}
 
 /* навигация */
 .main-nav-list {
