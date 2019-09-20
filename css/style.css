@@ -1,14 +1,3 @@
-/* roboto-regular - latin_cyrillic */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-  src: local('Roboto'), local('Roboto-Regular'),
-       url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-
-}
 
 /* roboto-500 - latin_cyrillic */
 @font-face {
@@ -53,7 +42,7 @@ a {
   text-decoration: none;
 }
 header {
-  background-color: #DCDCDC;
+  background-color: #eeeeee;
 }
 /* логотип */
 
@@ -63,42 +52,37 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
+  line-height: 1.88;
 }
 .main-nav-link {
-  line-height: 30px;
   color: #000000;
 }
 .main-nav-link:hover {
-  line-height: 30px;
   color: #fb565a;
 }
 .main-nav-link:active {
-  line-height: 30px;
   color: rgba(0, 0, 0, 0.3);
 }
 
 /* корзина */
 .basket {
-  line-height: 30px;
+  line-height: 1.88;
   color: #000000;
 }
 .basket:hover {
-  line-height: 30px;
   color: #fb565a;
 }
 .basket:active {
-  line-height: 30px;
   color: rgba(0, 0, 0, 0.3);
 }
 
 /* о слогане */
 .main-slogan {
   font-size: 55px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
 }
-.main-subtitle p {
-  text-align: left;
+.main-subtitle {
   line-height: 1.5;
   color: #283136;
 }
@@ -112,24 +96,20 @@ header {
 }
 .button:hover {
   background-color: #e74246;
-  line-height: 1.13;
   text-align: center;
   color: #ffffff;
 }
 .button:active {
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  line-height: 1.13;
 }
 
 /* блок вебсайтов */
-.uppercase {
+.practice-title {
   font-size: 24px;
   line-height: 1.25;
 }
-.lowercase {
+.practice-text {
   color: #283136;
   line-height: 1.5;
   }
@@ -137,41 +117,23 @@ header {
   /* кнопки web */
   .applications {
     background-color: #00ca74;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.13;
   }
   .applications:hover {
     background-color: #00bc6c;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.13;
   }
   .applications:active {
     background-color: #00aa62;
     box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-    color: rgba(255, 255, 255, 0.3);
-    text-align: center;
-    line-height: 1.13;
   }
   .presentation {
     background-color: #efc84a;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.13;
   }
   .presentation:hover {
     background-color: #eab534;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.13;
   }
   .presentation:active {
     background-color: #e5a722;
     box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-    color: rgba(255, 255, 255, 0.3);
-    text-align: center;
-    line-height: 1.13;
   }
 
 /* блок о нас */
@@ -200,16 +162,18 @@ header {
   line-height: 1.5;
   color: #000000;
 }
-.stability-item {
+.stability-list {
   margin: 0;
   padding: 0;
+}
+.stability-item {
   list-style: none;
 }
-.scroll {
+.total {
   font-size: 45px;
   line-height: 1;
 }
-.scroll-text {
+.total-text {
   line-height: 1.13;
   color: #283136;
 }
@@ -218,15 +182,19 @@ header {
   font-size: 36px;
   line-height: 1;
 }
-.footer-subtitle {
+.footer-paragraph {
   line-height: 1.38;
   color: #444444;
 }
-.socials-item {
+.socials-list {
   margin: 0;
   padding: 0;
+}
+.socials-item {
   list-style: none;
 }
+
+/* иконки соцсетей */
 .icon {
   background-color: #e1e1e1;
 }
@@ -243,28 +211,24 @@ header {
 /* заголовок */
 .main-title {
   font-size: 55px;
-  line-height: 55px;
+  line-height: 1;
   text-align: center;
   color: #000000
 }
-.scroll-item {
+.names-item {
   list-style: none;
+  font-size: 14px;
 }
 
 /* перчень названий */
-.scroll-link {
-  font-size: 14px;
-  line-height: 18px;
+.names-link {
+  line-height: 1.29;
   color: rgba(0, 0, 0, 0.3);
 }
-.scroll-link:hover {
-  font-size: 14px;
-  line-height: 18px;
+.names-link:hover {
   color: rgba(0, 0, 0, 0.6);
 }
-.scroll-link:active {
-  font-size: 14px;
-  line-height: 18px;
+.names-link:active {
   color: #000000;
 }
 
@@ -290,22 +254,15 @@ header {
 
 /* кнопка в форме */
 .show {
-  font-weight: 500;
-  line-height: 18px;
-  text-align: center;
   background-color: #ffffff;
   color: #000000;
   }
   .show:hover {
   background-color: #dfdfdf;
-  line-height: 18px;
-  text-align: center;
   color: #000000;
   }
   .show:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   background-color: #d5d5d5;
-  line-height: 18px;
-  text-align: center;
   color: rgba(0, 0, 0, 0.3);
   }
