@@ -63,7 +63,7 @@ a {
 }
 .page-header {
   width: 1440px;
-  height: 545px;
+  min-height: 545px;
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
