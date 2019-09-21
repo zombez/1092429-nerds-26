@@ -68,10 +68,6 @@ a {
   align-items: flex-start;
   background-color: #eeeeee;
 }
-/* логотип */
-.logo-img {
-
-}
 
 /* навигация */
 .main-nav-list {
@@ -106,7 +102,6 @@ a {
 
 /* о слогане */
 .main-slide {
-  margin: 0;
   background-color: #eeeeee;
 }
 .main-slogan {
