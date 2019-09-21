@@ -63,7 +63,7 @@ a {
 }
 .page-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #eeeeee;
 }
 /* логотип */
