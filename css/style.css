@@ -55,16 +55,26 @@ a {
   text-decoration: none;
 }
 .page-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #eeeeee;
+  background-size: 100%;
 }
 
 /* навигация */
 .main-nav-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   line-height: 1.88;
 }
+
 .main-nav-link {
   color: #000000;
 }
