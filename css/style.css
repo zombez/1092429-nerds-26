@@ -63,24 +63,22 @@ a {
 }
 .page-header {
   width: 1440px;
-  height: 545px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   background-color: #eeeeee;
 }
 /* логотип */
 .logo-img {
-  /* display: block;
-  margin-top: 49px;
-  margin-right: 1140px;
-  margin-bottom: 431px;
-  margin-left: 140px; */
+
 }
 
 /* навигация */
 .main-nav-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   line-height: 1.88;
 }
@@ -107,6 +105,10 @@ a {
 }
 
 /* о слогане */
+.main-slide {
+  margin: 0;
+  background-color: #eeeeee;
+}
 .main-slogan {
   width: 376px;
   height: 106px;
