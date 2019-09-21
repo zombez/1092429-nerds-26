@@ -62,13 +62,20 @@ a {
   text-decoration: none;
 }
 .page-header {
+  width: 1440px;
+  height: 545px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #eeeeee;
 }
 /* логотип */
 .logo-img {
-
+margin-top: 49px;
+margin-right: 1140px;
+margin-bottom: 431px;
+margin-left: 140px;
 }
 
 /* навигация */
@@ -102,17 +109,23 @@ a {
 
 /* о слогане */
 .main-slogan {
+  width: 376px;
+  height: 106px;
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
 }
 .main-subtitle {
+  width: 361px;
+  height: 40px;
   line-height: 1.5;
   color: #283136;
 }
 
 /* кнопка шапки */
 .button  {
+  width: 240px;
+  height: 50px;
   background-color: #fb565a;
   line-height: 1.13;
   text-align: center;
