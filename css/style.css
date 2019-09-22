@@ -155,21 +155,26 @@ a {
 }
 
 /* блок вебсайтов */
-.web-section {
+.services-wraper {
+  width: 1160px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.services {
-
+.image-web,
+.image-applications,
+.image-presentation {
+  outline: 1px solid Blue;
 }
 .practice-title {
   font-size: 24px;
   line-height: 1.25;
+  outline: 1px solid Blue;
 }
 .practice-text {
   color: #283136;
   line-height: 1.5;
+  outline: 1px solid Blue;
   }
 
   /* кнопки web */
