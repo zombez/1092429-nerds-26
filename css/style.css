@@ -155,7 +155,7 @@ a {
 }
 
 /* блок вебсайтов */
-.services-wraper {
+.web-section {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
@@ -202,7 +202,7 @@ a {
   }
 
 /* блок о нас */
-.information-wraper {
+.information-section {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
@@ -267,7 +267,7 @@ a {
 }
 
 /* сайты */
-.partners-wraper {
+.partners-section {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
@@ -278,7 +278,7 @@ a {
 }
 
 /* подвал */
-.socials-wraper {
+.page-footer {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
