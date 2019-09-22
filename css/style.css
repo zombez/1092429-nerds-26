@@ -98,7 +98,6 @@ a {
 
 /* о слогане */
 .main-slide {
-  display: flex;
   background-color: #eeeeee;
 }
 .main-slogan {
@@ -135,6 +134,11 @@ a {
 }
 
 /* блок вебсайтов */
+.web-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .practice-title {
   font-size: 24px;
   line-height: 1.25;
@@ -167,6 +171,11 @@ a {
   }
 
 /* блок о нас */
+.information-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .information-slogan {
   font-size: 45px;
   line-height: 1;
@@ -209,7 +218,20 @@ a {
   line-height: 1.13;
   color: #283136;
 }
+
+/* сайты */
+.partners-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 /* подвал */
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .footer-title {
   font-size: 36px;
   line-height: 1;
@@ -221,6 +243,7 @@ a {
 .socials-list {
   margin: 0;
   padding: 0;
+  order: -3;
 }
 .socials-list {
   list-style: none;
