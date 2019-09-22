@@ -201,6 +201,7 @@ a {
 
 /* блок о нас */
 .information-section {
+  width: 1160px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -208,29 +209,40 @@ a {
 .information-slogan {
   font-size: 45px;
   line-height: 1;
+  outline: 1px solid Blue;
 }
 .information-subtitle {
   color: #283136;
   line-height: 1.5;
+  outline: 1px solid Blue;
 }
 .development-title {
   color: #283136;
   font-weight: 700;
   line-height: 1.5;
+  outline: 1px solid Blue;
+
   }
 .development-list {
   list-style: none;
   line-height: 1.5;
+  outline: 1px solid Blue;
+
   }
 .development-item {
   color: #283136;
   }
 
+  /* о компании */
+  .image-sign {
+    outline: 1px solid Blue;
+  }
 .stability-slogan {
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
   color: #000000;
+  outline: 1px solid Blue;
 }
 .stability-list {
   margin: 0;
@@ -242,10 +254,12 @@ a {
 .total {
   font-size: 45px;
   line-height: 1;
+  outline: 1px solid Blue;
 }
 .total-text {
   line-height: 1.13;
   color: #283136;
+  outline: 1px solid Blue;
 }
 
 /* сайты */
@@ -253,6 +267,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  outline: 1px solid Blue;
 }
 
 /* подвал */
