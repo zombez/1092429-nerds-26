@@ -40,7 +40,6 @@ html {
 }
 
 body {
-  width: 1200px;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -56,12 +55,18 @@ a {
   text-decoration: none;
 }
 .page-header {
-  width: 1200px;
+  background-color: #eeeeee;
+}
+.wraper {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #eeeeee;
-  background-size: 100%;
+}
+.logo-img {
+  outline: 1px solid Blue;
 }
 
 /* навигация */
@@ -72,8 +77,10 @@ a {
   justify-content: space-between;
   list-style: none;
   line-height: 1.88;
+  text-transform: uppercase;
+  font-weight: 500;
+  outline: 1px solid Blue;
 }
-
 .main-nav-link {
   color: #000000;
 }
@@ -87,7 +94,10 @@ a {
 /* корзина */
 .basket {
   line-height: 1.88;
+  text-transform: uppercase;
+  font-weight: 500;
   color: #000000;
+  outline: 1px solid Blue;
 }
 .basket:hover {
   color: #fb565a;
@@ -100,18 +110,28 @@ a {
 .main-slide {
   background-color: #eeeeee;
 }
+.main-slide-wraper {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .main-slogan {
   width: 376px;
   height: 106px;
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
+  outline: 1px solid Blue;
 }
 .main-subtitle {
   width: 361px;
   height: 40px;
   line-height: 1.5;
   color: #283136;
+  outline: 1px solid Blue;
 }
 
 /* кнопка шапки */
@@ -122,6 +142,7 @@ a {
   line-height: 1.13;
   text-align: center;
   color: #ffffff;
+  outline: 1px solid Blue;
 }
 .button:hover {
   background-color: #e74246;
