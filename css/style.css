@@ -157,6 +157,8 @@ a {
 /* блок вебсайтов */
 .services-wraper {
   width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -200,8 +202,10 @@ a {
   }
 
 /* блок о нас */
-.information-section {
+.information-wraper {
   width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -263,15 +267,18 @@ a {
 }
 
 /* сайты */
-.partners-section {
+.partners-wraper {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   outline: 1px solid Blue;
 }
 
 /* подвал */
-.page-footer {
+.socials-wraper {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
