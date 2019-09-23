@@ -343,13 +343,13 @@ a {
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   font-size: 14px;
 }
 /* перчень названий */
 .names-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   list-style: none;
 }
 .names-link {
