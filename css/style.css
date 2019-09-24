@@ -362,10 +362,7 @@ flex-direction: column;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
-/* .content-scroll {
-  display: flex;
-  justify-content: space-between;
-} */
+
   /* названия */
 .content-scroll {
   width: 1200px;
