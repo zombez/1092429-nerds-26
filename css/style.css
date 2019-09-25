@@ -291,6 +291,8 @@ a {
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-title {
   font-size: 36px;
@@ -303,9 +305,12 @@ a {
 .socials-list {
   margin: 0;
   padding: 0;
-}
-.socials-list {
+  display: flex;
+  order: 1;
   list-style: none;
+}
+.container-title {
+  order: 2;
 }
 
 /* иконки соцсетей */
@@ -320,7 +325,12 @@ a {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
-                /* catalog */
+/* catalog */
+
+.page-main-catalog {
+display: flex;
+flex-direction: column;
+}
 
 /* заголовок */
 .title-wraper {
@@ -351,10 +361,7 @@ a {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
-/* .content-scroll {
-  display: flex;
-  justify-content: space-between;
-} */
+
   /* названия */
 .content-scroll {
   width: 1200px;
@@ -363,13 +370,21 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
 /* перчень названий */
+.sorting{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000000;
+}
 .names-list {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-end;
   list-style: none;
+  font-size: 14px;
 }
 .names-link {
   line-height: 1.29;
@@ -383,7 +398,7 @@ a {
 }
 
 /* форма */
-.main-section-wraper {
+.main-section {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -391,11 +406,26 @@ a {
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
 }
+
+.main-section-wraper {
+  width: 260px;
+  margin-top: -30px;
+}
+
+.cost-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-legend {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.67;
   font-weight: 500;
   color: #000000;
 }
@@ -427,17 +457,19 @@ a {
   color: rgba(0, 0, 0, 0.3);
   }
 .main-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.image-card {
+  margin-left: 30px;
+}
+.selection-button {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.selection-button {
-  width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: flex-end;
 }
