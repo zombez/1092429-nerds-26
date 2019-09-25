@@ -72,9 +72,9 @@ a {
 
 /* навигация */
 .main-nav-list {
-  margin-left: 200px;
   margin: 0;
   padding: 0;
+  margin-left: 200px;
   display: flex;
   list-style: none;
   line-height: 1.88;
@@ -95,6 +95,7 @@ a {
 
 /* корзина */
 .basket {
+  margin-left: 240px;
   line-height: 1.88;
   text-transform: uppercase;
   font-weight: 700;
