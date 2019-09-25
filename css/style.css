@@ -67,8 +67,6 @@ a {
   align-items: center;
 }
 .logo-img{
-  margin-top: 40px;
-  margin-left: 130px;
   outline: 1px solid Blue;
 }
 
@@ -76,7 +74,6 @@ a {
 .main-nav-list {
   margin: 0;
   padding: 0;
-  margin-top: 40px;
   margin-left: 200px;
   display: flex;
   list-style: none;
@@ -98,8 +95,6 @@ a {
 
 /* корзина */
 .basket {
-  margin-top: 40px;
-  margin-right: 130px;
   margin-left: 240px;
   line-height: 1.88;
   text-transform: uppercase;
@@ -130,8 +125,6 @@ a {
 }
 .main-slogan {
   width: 376px;
-  margin-top: 80px;
-  margin-left: 130px;
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -139,8 +132,6 @@ a {
 }
 .main-subtitle {
   width: 361px;
-  margin-top: 28px;
-  margin-left: 130px;
   line-height: 1.5;
   color: #283136;
   outline: 1px solid Blue;
@@ -150,8 +141,6 @@ a {
 .button  {
   width: 240px;
   height: 50px;
-  margin-top: 40px;
-  margin-left: 130px;
   background-color: #fb565a;
   line-height: 1.13;
   text-align: center;
