@@ -107,13 +107,12 @@ a {
 .basket::before {
   content: "";
   position: absolute;
-  top; 50%;
-  left: 5px;
+  top: 7px;
+  left: 3px;
   width: 15px;
   height: 15px;
   background-image:url(../img/cart-icon.svg);
   background-repeat: no-repeat;
-  /* opacity: 0.3; */
   background-position: 0 0;
   outline: 1px solid Blue;
 }
