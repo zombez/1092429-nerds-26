@@ -63,6 +63,7 @@ a {
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
 }
@@ -79,11 +80,13 @@ a {
   list-style: none;
   line-height: 1.88;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   outline: 1px solid Blue;
 }
-.main-nav-link {
+.main-nav-item {
   margin-left: 20px;
+}
+.main-nav-link {
   color: #000000;
 }
 .main-nav-link:hover {
@@ -95,12 +98,12 @@ a {
 
 /* корзина */
 .basket {
-  margin-left: 240px;
+  margin-left: auto;
   position: relative;
   padding-left: 30px;
   line-height: 1.88;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
   outline: 1px solid Blue;
 }
