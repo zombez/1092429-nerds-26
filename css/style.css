@@ -187,10 +187,14 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.image-web,
-.image-applications,
+.image-web {
+ margin-right: 100px;
+}
+.image-applications {
+
+}
 .image-presentation {
-  outline: 1px solid Blue;
+
 }
 .practice-title {
   font-size: 24px;
