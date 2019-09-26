@@ -96,11 +96,26 @@ a {
 /* корзина */
 .basket {
   margin-left: 240px;
+  position: relative;
+  margin: 20px;
   line-height: 1.88;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
   outline: 1px solid Blue;
+}
+.basket::before {
+  content: "";
+  position: absolute;
+  top; 82px;
+  left: 60px;
+  width: 15px;
+  height: 15px;
+  background-image:url(img/cart-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #a6a6a6;
+
 }
 .basket:hover {
   color: #fb565a;
