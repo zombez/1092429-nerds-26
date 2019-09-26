@@ -97,6 +97,7 @@ a {
 .basket {
   margin-left: 240px;
   position: relative;
+  padding-left: 30px;
   line-height: 1.88;
   text-transform: uppercase;
   font-weight: 700;
@@ -106,16 +107,27 @@ a {
 .basket::before {
   content: "";
   position: absolute;
-  top; 82px;
-  left: 60px;
+  top; 50%;
+  left: 5px;
   width: 15px;
   height: 15px;
   background-image:url(../img/cart-icon.svg);
   background-repeat: no-repeat;
+  opacity: 0.3;
   background-position: 0 0;
   outline: 1px solid Blue;
-
 }
+.basket:hover::before,
+.basket:focus::before {
+  opacity: 1;
+}
+.basket:active {
+  color: rgba(255, 255, 255, 0.6)
+}
+.basket:active::before {
+  opacity: 0.5;
+}
+
 .basket:hover {
   color: #fb565a;
 }
