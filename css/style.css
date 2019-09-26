@@ -110,10 +110,10 @@ a {
   left: 60px;
   width: 15px;
   height: 15px;
-  background-image:url(img/cart-icon.svg);
+  background-image:url(../img/cart-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-color: #a6a6a6;
+  outline: 1px solid Blue;
 
 }
 .basket:hover {
