@@ -113,19 +113,9 @@ a {
   height: 15px;
   background-image:url(../img/cart-icon.svg);
   background-repeat: no-repeat;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   background-position: 0 0;
   outline: 1px solid Blue;
-}
-.basket:hover::before,
-.basket:focus::before {
-  opacity: 1;
-}
-.basket:active {
-  color: rgba(255, 255, 255, 0.6)
-}
-.basket:active::before {
-  opacity: 0.5;
 }
 
 .basket:hover {
