@@ -63,7 +63,7 @@ a {
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 45px;
   display: flex;
   align-items: center;
 }
@@ -187,14 +187,8 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.image-web {
- margin-right: 100px;
-}
-.image-applications {
-
-}
-.image-presentation {
-
+.services {
+  width: 300px;
 }
 .practice-title {
   font-size: 24px;
@@ -240,6 +234,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.information {
+  width: 650px;
+}
 .information-slogan {
   font-size: 45px;
   line-height: 1;
@@ -268,6 +265,10 @@ a {
   }
 
   /* о компании */
+  .company {
+    width: 360px;
+    margin-left: auto;
+  }
   .image-sign {
     outline: 1px solid Blue;
   }
@@ -281,6 +282,7 @@ a {
 .stability-list {
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .stability-list {
   list-style: none;
@@ -317,7 +319,10 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.container-title {
+  margin-left: 139px;
 }
 .footer-title {
   font-size: 36px;
@@ -329,10 +334,14 @@ a {
 }
 .socials-list {
   margin: 0;
+  margin-top: 65px;
   padding: 0;
   display: flex;
   order: 1;
   list-style: none;
+}
+.socials-item {
+  margin-left: 10px;
 }
 .container-title {
   order: 2;
