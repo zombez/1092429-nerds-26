@@ -445,7 +445,7 @@ flex-direction: column;
 }
 
   /* названия */
-.content-scroll {
+.content-sorting {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -485,7 +485,7 @@ flex-direction: column;
 }
 
 /* форма */
-.main-section {
+.sort-result {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
