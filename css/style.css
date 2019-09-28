@@ -514,22 +514,22 @@ flex-direction: column;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
-  /* перечень названий */
+/* перечень названий */
 .sorting {
-display: flex;
-justify-content: space-between;
-align-items: baseline;
-margin-bottom: 59px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 59px;
 }
 .sorting-caption {
-display: block;
-max-width: 100%;
-margin: 0;
-margin-right: 200px;
-padding: 0;
-font-size: 18px;
-font-weight: 700;
-line-height: 1;
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  margin-right: 200px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
 }
 .names-list {
   margin-top: 63px;
@@ -556,9 +556,10 @@ line-height: 1;
 
 /* карточки */
 .filter-templates {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .image-card {
   margin-left: 40px;
