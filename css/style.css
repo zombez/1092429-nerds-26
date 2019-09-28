@@ -432,39 +432,8 @@ flex-direction: column;
   color: #000000;
   outline: 1px solid Blue;
 }
-/* фильтр */
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
 
-  /* названия */
-.content-sorting {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-}
-/* перчень названий */
-.sorting{
-  margin-top: -30px;
-  margin-bottom: 59px;
-  margin-left: -620px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  color: #000000;
-}
+/* перечень названий */
 .names-list {
   margin-top: 63px;
   margin-left: 850px;
@@ -557,6 +526,42 @@ flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* фильтр работ */
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+  /* сортровка */
+.content-sorting {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.sorting{
+  margin-top: -30px;
+  margin-bottom: 59px;
+  margin-left: -620px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000000;
+}
+
+/* карточки */
 .image-card {
   margin-left: 40px;
   margin-bottom: 33px;
