@@ -525,6 +525,7 @@ margin-bottom: 59px;
 display: block;
 max-width: 100%;
 margin: 0;
+margin-right: 200px;
 padding: 0;
 font-size: 18px;
 font-weight: 700;
@@ -532,7 +533,7 @@ line-height: 1;
 }
 .names-list {
   margin-top: 63px;
-  margin-right: 315px;
+  margin-right: 310px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
