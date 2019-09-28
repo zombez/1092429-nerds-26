@@ -436,13 +436,14 @@ flex-direction: column;
 /* перечень названий */
 .names-list {
   margin-top: 63px;
-  margin-left: 850px;
+  margin-right: 315px;
   display: flex;
+  justify-content: flex-end;
   list-style: none;
   font-size: 14px;
 }
 .names-item {
-  margin-left: 26px;
+  margin-left: 20px;
 }
 .names-link {
   line-height: 1.29;
