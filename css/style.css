@@ -319,7 +319,6 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
-  /* justify-content: space-between; */
 }
 .container-title {
   margin-left: 139px;
@@ -354,8 +353,6 @@ a {
   .vk-icon::before {
     content: "";
     position: absolute;
-    /* top: 32px;
-    left: 27px; */
     width: 26px;
     height: 15px;
     border: 30px solid #e1e1e1;
@@ -369,8 +366,6 @@ a {
   .fb-icon::before {
     content: "";
     position: absolute;
-    /* top: 14px;
-    left: 3px; */
     width: 12px;
     height: 22px;
     border: 30px solid #e1e1e1;
@@ -384,8 +379,6 @@ a {
   .insta-icon::before {
     content: "";
     position: absolute;
-    /* top: 14px;
-    left: 3px; */
     width: 21px;
     height: 21px;
     border: 30px solid #e1e1e1;
@@ -446,8 +439,9 @@ flex-direction: column;
 
 /* форма */
 .main-section-wraper {
-  width: 260px;
-  margin-top: -30px;
+  max-width: 260px;
+  min-height: 700px;
+  margin-top: 50px;
 }
 
 .cost-form {
@@ -461,9 +455,13 @@ flex-direction: column;
 }
 
 .form-legend {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 1.67;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
 }
 .field-radio-text {
@@ -517,23 +515,27 @@ flex-direction: column;
   white-space: nowrap;
 }
   /* перечень названий */
-/* .sorting {
-  margin-top: -30px;
-  margin-bottom: 59px;
-  margin-left: -620px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  color: #000000;
-} */
+.sorting {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+margin-bottom: 59px;
+}
 .sorting-caption {
-
+display: block;
+max-width: 100%;
+margin: 0;
+padding: 0;
+font-size: 18px;
+font-weight: 700;
+line-height: 1;
 }
 .names-list {
   margin-top: 63px;
   margin-right: 315px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: baseline;
   list-style: none;
   font-size: 14px;
 }
@@ -553,18 +555,20 @@ flex-direction: column;
 
 /* карточки */
 .filter-templates {
-
+display: flex;
+flex-wrap: wrap;
+align-items: center;
 }
 .image-card {
   margin-left: 40px;
   margin-bottom: 33px;
 }
-.selection-button {
+.pagination {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
