@@ -526,7 +526,16 @@ flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.content-sorting {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
 /* фильтр работ */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
@@ -538,19 +547,7 @@ flex-direction: column;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
-
-  /* сортровка */
-.content-sorting {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-}
-
+/* сортровка */
 .sorting{
   margin-top: -30px;
   margin-bottom: 59px;
@@ -560,7 +557,6 @@ flex-direction: column;
   line-height: 1;
   color: #000000;
 }
-
 /* карточки */
 .image-card {
   margin-left: 40px;
