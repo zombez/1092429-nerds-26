@@ -434,6 +434,15 @@ flex-direction: column;
 }
 
 /* перечень названий */
+.sorting{
+  /* margin-top: -30px; */
+  margin-bottom: 59px;
+  /* margin-left: -620px; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000000;
+}
 .names-list {
   margin-top: 63px;
   margin-right: 315px;
@@ -527,7 +536,7 @@ flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
-.content-sorting {
+/* .content-sorting {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -536,7 +545,7 @@ flex-direction: column;
   font-size: 14px;
   display: flex;
   justify-content: center;
-}
+} */
 /* фильтр работ */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
@@ -547,16 +556,6 @@ flex-direction: column;
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
-}
-/* сортровка */
-.sorting{
-  margin-top: -30px;
-  margin-bottom: 59px;
-  margin-left: -620px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  color: #000000;
 }
 /* карточки */
 .image-card {
