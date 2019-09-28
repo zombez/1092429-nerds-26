@@ -516,6 +516,7 @@ flex-direction: column;
 /* перечень названий */
 .sorting {
   width: 100%;
+  padding-left: 47px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -555,7 +556,7 @@ flex-direction: column;
 /* карточки */
 .filter-templates {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
 }
