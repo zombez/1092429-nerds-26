@@ -457,8 +457,9 @@ flex-direction: column;
 }
 /* перчень названий */
 .sorting{
-  margin-top: 60px;
+  margin-top: -30px;
   margin-bottom: 59px;
+  margin-left: -620px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
@@ -466,6 +467,7 @@ flex-direction: column;
 }
 .names-list {
   margin-top: 63px;
+  margin-left: 850px;
   display: flex;
   list-style: none;
   font-size: 14px;
@@ -553,7 +555,7 @@ flex-direction: column;
   padding-left: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .image-card {
   margin-left: 40px;
