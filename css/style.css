@@ -494,7 +494,6 @@ flex-direction: column;
 
     /* каталог сайтов */
 .main-catalog {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -516,6 +515,7 @@ flex-direction: column;
 }
 /* перечень названий */
 .sorting {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -525,7 +525,6 @@ flex-direction: column;
   display: block;
   max-width: 100%;
   margin: 0;
-  margin-right: 200px;
   padding: 0;
   font-size: 18px;
   font-weight: 700;
@@ -533,7 +532,6 @@ flex-direction: column;
 }
 .names-list {
   margin-top: 63px;
-  margin-right: 310px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -557,7 +555,7 @@ flex-direction: column;
 /* карточки */
 .filter-templates {
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -566,7 +564,6 @@ flex-direction: column;
   margin-bottom: 33px;
 }
 .pagination {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
