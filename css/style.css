@@ -433,39 +433,7 @@ flex-direction: column;
   outline: 1px solid Blue;
 }
 
-/* перечень названий */
-.sorting{
-  /* margin-top: -30px; */
-  margin-bottom: 59px;
-  /* margin-left: -620px; */
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  color: #000000;
-}
-.names-list {
-  margin-top: 63px;
-  margin-right: 315px;
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  font-size: 14px;
-}
-.names-item {
-  margin-left: 20px;
-}
-.names-link {
-  line-height: 1.29;
-  color: rgba(0, 0, 0, 0.3);
-}
-.names-link:hover {
-  color: rgba(0, 0, 0, 0.6);
-}
-.names-link:active {
-  color: #000000;
-}
-
-/* форма */
+/* главный сектор */
 .sort-result {
   width: 1200px;
   margin-left: auto;
@@ -476,6 +444,7 @@ flex-direction: column;
   justify-content: space-between;
 }
 
+/* форма */
 .main-section-wraper {
   width: 260px;
   margin-top: -30px;
@@ -525,7 +494,7 @@ flex-direction: column;
   color: rgba(0, 0, 0, 0.3);
   }
 
-  /* каталог сайтов */
+    /* каталог сайтов */
 .main-catalog {
   width: 1200px;
   margin-left: auto;
@@ -536,16 +505,6 @@ flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
-/* .content-sorting {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-} */
 /* фильтр работ */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
@@ -557,7 +516,45 @@ flex-direction: column;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
+  /* перечень названий */
+/* .sorting {
+  margin-top: -30px;
+  margin-bottom: 59px;
+  margin-left: -620px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000000;
+} */
+.sorting-caption {
+
+}
+.names-list {
+  margin-top: 63px;
+  margin-right: 315px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 14px;
+}
+.names-item {
+  margin-left: 20px;
+}
+.names-link {
+  line-height: 1.29;
+  color: rgba(0, 0, 0, 0.3);
+}
+.names-link:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.names-link:active {
+  color: #000000;
+}
+
 /* карточки */
+.filter-templates {
+
+}
 .image-card {
   margin-left: 40px;
   margin-bottom: 33px;
