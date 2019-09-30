@@ -344,11 +344,6 @@ a {
 .socials-item {
   width: 80px;
   height: 80px;
-  /* display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 100%; */
 }
 .container-title {
   order: 2;
