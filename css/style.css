@@ -367,7 +367,7 @@ a {
   .icon:active {
     background-color: #d7373b;
   }
-  .socials-icon:active {
+  .icon:active svg {
     opacity: 0.3;
   }
 
