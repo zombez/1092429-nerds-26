@@ -338,15 +338,11 @@ a {
   margin: 0;
   margin-top: 30px;
   padding: 0;
-  order: 1;
   list-style: none;
 }
 .socials-item {
   width: 80px;
   height: 80px;
-}
-.container-title {
-  order: 2;
 }
 
 /* иконки соцсетей */
@@ -383,7 +379,6 @@ flex-direction: column;
   background-color: #eeeeee;
 }
 .main-title {
-  width: 1200px;
   margin-top: 100px;;
   margin-bottom: 115px;
   margin-left: auto;
@@ -576,8 +571,9 @@ flex-direction: column;
 
 /* карточки */
 .filter-templates {
+  /* margin-left: 20px; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -586,10 +582,10 @@ flex-direction: column;
   margin-bottom: 33px;
 }
 .pagination {
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
   display: flex;
   justify-content: flex-start;
+  margin-right: 500px;
+}
+.pagination-link {
+  padding-left: 10px;
 }
