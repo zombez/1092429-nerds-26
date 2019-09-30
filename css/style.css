@@ -367,6 +367,9 @@ a {
   .icon:active {
     background-color: #d7373b;
   }
+  .socials-icon:active {
+    opacity: 0.3;
+  }
 
   /* catalog */
 
