@@ -555,6 +555,50 @@ flex-direction: column;
 .names-link:active {
   color: #000000;
 }
+.up {
+  margin-left: auto;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.88;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000000;
+}
+.up::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  width: 11px;
+  height: 10px;
+  transform: translateY(-50%);
+  background-image:url(../img/icon-up-dir.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  outline: 1px solid Blue;
+}
+.down {
+  margin-left: auto;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.88;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #a6a6a6;
+}
+.down::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  width: 11px;
+  height: 10px;
+  transform: translateY(-50%);
+  background-image:url(../img/icon-down-dir.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  outline: 1px solid Blue;
+}
 
 /* карточки */
 .filter-templates {
