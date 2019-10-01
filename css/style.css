@@ -545,6 +545,13 @@ flex-direction: column;
 .image-card {
   margin-bottom: 33px;
 }
+/* попапы карточек */
+  .pop-up-cards {
+    display: none;
+  }
+  .pop-up-cards:hover {
+    display: block;
+  }
 .pagination {
   /* display: flex;
   justify-content: flex-start; */
