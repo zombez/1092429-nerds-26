@@ -414,7 +414,7 @@ flex-direction: column;
 .form-fieldset {
   display: flex;
   flex-direction: column;
-  border: none;
+  /* border: none; */
 }
 
 .form-legend {
@@ -540,11 +540,11 @@ flex-direction: column;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
 .image-card {
   margin-bottom: 33px;
 }
+<<<<<<< HEAD
 /* попапы карточек */
   .pop-up-cards {
     display: none;
