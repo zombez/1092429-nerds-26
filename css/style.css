@@ -560,7 +560,7 @@ flex-direction: column;
   display: block;
 }
 .card-name {
-  margin-top: 35px;
+
 }
 .card-name-title {
   font-size: 18px;
@@ -569,13 +569,17 @@ flex-direction: column;
   color: #000000;
 }
 .card-information {
-  margin-top: 25px;
   font-size: 16px;
   line-height: 1.13;
   color: #666666;
 }
 .cost {
+  display: block;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 43px;
+  padding-top: 15px;
   min-width: 200px;
   min-height: 50px;
 }
