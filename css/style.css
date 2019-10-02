@@ -646,6 +646,10 @@ flex-direction: column;
   background-color: #000000;
   /* opacity: 0.12; */
 }
+.crown:hover,
+.crown:focus {
+  background-color: #a6a6a6;
+}
 .circle {
   display: block;
   margin-right: 10px;
