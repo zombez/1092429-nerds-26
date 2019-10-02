@@ -40,6 +40,7 @@ html {
 }
 
 body {
+  min-width: 1200px;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -128,57 +129,138 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* о слогане */
-.main-slide {
+/* слайдер */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+.slider {
+  position: relative;
   background-color: #eeeeee;
 }
-.main-slide-wraper {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.main-slogan {
-  width: 376px;
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 1;
-  outline: 1px solid Blue;
-}
-.main-subtitle {
-  width: 361px;
-  line-height: 1.5;
-  color: #283136;
-  outline: 1px solid Blue;
+.slider-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 104px;
+  z-index: 100;
+  width: 160px;
+  height: 18px;
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
 }
 
-/* кнопка шапки */
+.slider-controls i {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-controls i::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.slider-controls .active::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  width: 4px;
+  height: 4px;
+  margin: -4px;
+  background-color: inherit;
+  border: 2px solid #c1c1c1;
+  border-radius: 50%;
+}
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slider-item {
+  display: none;
+  padding: 78px 0 80px 0;
+}
+.slider-item:nth-child(3) {
+  display: block;
+}
+.slider-item:nth-child(1) {
+  background-image: url("img/slide1.jpg");
+  background-repeat: no-repeat;
+  background-position: 93% 18px;
+}
+.slider-item:nth-child(2) {
+  background-image: url("img/slide2.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+.slider-item:nth-child(3) {
+  background-image: url("img/slide3.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 20px;
+}
+.slider-item h3 {
+  max-width: 600px;
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+.slider-item p {
+  max-width: 430px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+/* кнопка слайдера */
 .button  {
+  display: block;
   width: 240px;
-  height: 50px;
+  padding: 13px 0;
+  font-size: 16px;
   background-color: #fb565a;
   line-height: 1.13;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
+  border-radius: 3px;
+  border: none;
   outline: 1px solid Blue;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #e74246;
-  text-align: center;
   color: #ffffff;
 }
 .button:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
 /* блок вебсайтов */
 .web-section {
-  width: 1200px;
+  min-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
