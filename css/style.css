@@ -647,7 +647,7 @@ flex-direction: column;
   /* opacity: 0.12; */
 }
 .crown:hover,
-.crown:focus {
+.crown:focus. {
   background-color: #a6a6a6;
 }
 .circle {
