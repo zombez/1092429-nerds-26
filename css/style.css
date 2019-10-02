@@ -640,8 +640,7 @@ flex-direction: column;
   background-color: #000000;
 }
 .crown {
-  display: flex;
-  align-items: center;
+  padding-top: 13px;
   padding-left: 16px;
   width: 360px;
   height: 40px;
@@ -651,6 +650,26 @@ flex-direction: column;
 .crown:hover,
 .crown:focus. {
   background-color: #000000;
+}
+.crown::after{
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  right: 310px;
+  top: 13px;
+  }
+.crown::before{
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  right: 290px;
+  top: 13px;
 }
 .circle {
   display: block;
