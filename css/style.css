@@ -637,7 +637,7 @@ flex-direction: column;
   position: relative;
 }
 .card:hover .crown {
-  background-color: #a6a6a6;
+  background-color: #000000;
 }
 .crown {
   display: flex;
@@ -646,12 +646,11 @@ flex-direction: column;
   width: 360px;
   height: 40px;
   border-radius: 2px;
-  background-color: #000000;
-  /* opacity: 0.12; */
+  background-color: #DCDCDC;
 }
 .crown:hover,
 .crown:focus. {
-  background-color: #a6a6a6;
+  background-color: #000000;
 }
 .circle {
   display: block;
