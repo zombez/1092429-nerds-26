@@ -681,7 +681,7 @@ flex-direction: column;
   position: relative;
 }
 /* попап карточки */
-.pop-up-cards {
+.business-card {
   position: absolute;
   bottom: 0;
   display: none;
@@ -691,8 +691,8 @@ flex-direction: column;
   border: solid 1px rgba(0, 1, 1, 0.1);
   background-color: #eeeeee;
   }
-.card:hover .pop-up-cards,
-.card:focus .pop-up-cards {
+.card:hover .business-card,
+.card:focus .business-card {
   display: block;
 }
 .card-name {
