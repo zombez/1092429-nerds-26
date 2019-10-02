@@ -648,10 +648,10 @@ flex-direction: column;
   background-color: #DCDCDC;
 }
 .crown:hover,
-.crown:focus. {
+.crown:focus {
   background-color: #000000;
 }
-.crown::after{
+.crown::after {
   content: '';
   position: absolute;
   width: 14px;
