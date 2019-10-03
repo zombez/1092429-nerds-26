@@ -645,13 +645,13 @@ flex-direction: column;
   width: 360px;
   height: 40px;
   border-radius: 2px;
-  background-color: #DCDCDC;
+  background-color: #a6a6a6;
 }
 .crown:hover,
 .crown:focus {
-  background-color: #000000;
+  background-color: #343a40;
 }
-.crown::after {
+/* .crown::after {
   content: '';
   position: absolute;
   width: 14px;
@@ -669,16 +669,32 @@ flex-direction: column;
   border-radius: 50%;
   background-color: #ffffff;
   right: 290px;
-  top: 13px;
+  top: 13px; */
 }
 .circle {
-  display: block;
-  margin-right: 10px;
-  width: 5px;
-  height: 5px;
-  border: 7.2px solid #ffffff;
-  border-radius: 50%;
   position: relative;
+  display: block;
+  /* margin-right: 10px; */
+  width: 14px;
+  height: 14px;
+  /* border: 7.2px solid #ffffff; */
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+.circle::before,
+.circle::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+.circle::before {
+  left: 23px;
+}
+.circle::after {
+  left: 46px;
 }
 /* ховер карточки */
 .business-card {
