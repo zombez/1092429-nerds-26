@@ -517,7 +517,7 @@ flex-direction: column;
 .slider-сatalog {
   position: relative;
   width: 261px;
-  padding: 40px 15px;
+  padding: 20px 15px;
   background-color: #eeeeee;
   z-index: 1;
 }
@@ -545,10 +545,10 @@ flex-direction: column;
 .strip::after {
   content: "";
   position: absolute;
-  width: 102px;
+  width: 110px;
   height: 2px;
   left: 35px;
-  top: 49px;
+  top: 30px;
   background-color: #00bc6c;
   z-index: 2;
 }
