@@ -495,18 +495,14 @@ flex-direction: column;
   margin-top: 58px;
   margin-right: 140px;
 }
-
 .cost-form {
   display: flex;
   flex-direction: column;
 }
-
 .form-fieldset {
   display: flex;
   flex-direction: column;
-  /* border: none; */
 }
-
 .form-legend {
   display: block;
   max-width: 100%;
@@ -517,6 +513,31 @@ flex-direction: column;
   font-weight: 700;
   color: #000000;
 }
+/* ползунок */
+.slider {
+  width: 261px;
+  padding: 40px 15px;
+}
+.slider-circle {
+position: relative;
+display: block;
+width: 20px;
+height: 20px;
+background-color: #ffffff;
+border-radius: 50%;
+}
+.slider-circle::after {
+position: absolute;
+content: "";
+width: 20px;
+height: 20px;
+background-color: #ffffff;
+border-radius: 50%;
+}
+.slider-circle::after {
+  left: 122px;
+}
+/* форма сетка */
 .field-radio-text {
   line-height: 20px;
   color: #283136;
@@ -525,6 +546,7 @@ flex-direction: column;
   line-height: 20px;
   color: #283136;
 }
+/* форма особенности */
 .field-checkbox-text {
   line-height: 20px;
   color: #283136;
