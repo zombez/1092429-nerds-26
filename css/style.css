@@ -514,7 +514,7 @@ flex-direction: column;
   color: #000000;
 }
 /* ползунок */
-.slider-сatalog {
+/* .slider-сatalog {
   position: relative;
   width: 261px;
   padding: 20px 15px;
@@ -550,7 +550,7 @@ flex-direction: column;
   left: 35px;
   top: 30px;
   background-color: #00bc6c;
-  z-index: 2;
+  z-index: 2; */
 }
 /* форма сетка */
 .field-radio-text {
