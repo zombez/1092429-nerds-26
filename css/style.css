@@ -639,6 +639,7 @@ flex-direction: column;
 .card:hover .crown {
   background-color: #000000;
 }
+/* шапка карточки */
 .crown {
   width: 360px;
   padding: 13px 16px;
