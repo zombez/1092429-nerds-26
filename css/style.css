@@ -515,6 +515,7 @@ flex-direction: column;
 }
 /* ползунок */
 .slider-сatalog {
+  position: relative;
   width: 261px;
   padding: 40px 15px;
   background-color: #eeeeee;
@@ -542,7 +543,7 @@ flex-direction: column;
   left: 122px;
 }
 .strip::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 102px;
   height: 2px;
