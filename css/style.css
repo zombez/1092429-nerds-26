@@ -725,14 +725,20 @@ color: #fb565a;
   /* кнопки под карточками */
 .pagination {
   display: flex;
-  justify-content: flex-start;
+
 }
 .pagination-link {
   padding-left: 10px;
   border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  text-align: center;
+  color: #000000;
   background-color: #eeeeee;
 }
-.pagination-link:hover {
+.pagination-link:hover,
+.pagination-link:focus {
   background-color: #dfdfdf;
 }
 .pagination-link:active {
