@@ -636,7 +636,8 @@ flex-direction: column;
   margin-bottom: 33px;
   position: relative;
 }
-.card:hover .crown {
+.card:hover .crown,
+.card:focus .crown {
   background-color: #000000;
 }
 /* шапка карточки */
