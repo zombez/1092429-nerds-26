@@ -676,11 +676,11 @@ flex-direction: column;
   margin-right: 10px;
   width: 5px;
   height: 5px;
-  border: 7px solid #ffffff;
+  border: 7.2px solid #ffffff;
   border-radius: 50%;
   position: relative;
 }
-/* попап карточки */
+/* ховер карточки */
 .business-card {
   position: absolute;
   bottom: 0;
@@ -725,10 +725,13 @@ color: #fb565a;
   /* кнопки под карточками */
 .pagination {
   display: flex;
-
 }
 .pagination-link {
-  padding-left: 10px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 11px;
+  padding-top: 14px;
   border-radius: 2px;
   font-size: 16px;
   font-weight: 500;
@@ -737,6 +740,14 @@ color: #fb565a;
   color: #000000;
   background-color: #eeeeee;
 }
+.pagination-link.initial {
+  padding-top: 12px;
+  border: solid 3px #dbdbdb;
+  background-color: #ffffff;
+}
+.pagination-link.next {
+  width: 260px;
+}
 .pagination-link:hover,
 .pagination-link:focus {
   background-color: #dfdfdf;
@@ -744,11 +755,4 @@ color: #fb565a;
 .pagination-link:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   background-color: #d5d5d5;
-}
-.initial {
-  border: solid 3px #dbdbdb;
-  background-color: #ffffff;
-}
-.next {
-  min-width: 260px;
 }
