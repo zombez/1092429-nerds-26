@@ -642,41 +642,17 @@ flex-direction: column;
 .crown {
   width: 360px;
   padding: 13px 16px;
-  /* height: 40px; */
-  /* border-radius: 2px; */
   background-color: #a6a6a6;
 }
 .crown:hover,
 .crown:focus {
   background-color: #343a40;
 }
-/* .crown::after {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  right: 310px;
-  top: 13px;
-  }
-.crown::before{
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  right: 290px;
-  top: 13px; */
-}
 .circle {
   position: relative;
   display: block;
-  /* margin-right: 10px; */
   width: 14px;
   height: 14px;
-  /* border: 7.2px solid #ffffff; */
   background-color: #f8f9fa;
   border-radius: 50%;
 }
