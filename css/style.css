@@ -538,8 +538,6 @@ flex-direction: column;
   background-color: #171616;
   border-radius: 50%;
   border: 8px solid #ffffff;
-}
-.slider-circle::after {
   top: -8px;
   left: 122px;
 }
