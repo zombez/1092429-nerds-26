@@ -641,8 +641,7 @@ flex-direction: column;
 }
 .crown {
   width: 360px;
-  padding-top: 13px;
-  padding-left: 16px;
+  padding: 13px 16px;
   /* height: 40px; */
   /* border-radius: 2px; */
   background-color: #a6a6a6;
