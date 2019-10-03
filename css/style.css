@@ -673,6 +673,13 @@ flex-direction: column;
 .circle::after {
   left: 46px;
 }
+/* контейнер карточки */
+.card-wrapper {
+  width: 360px;
+  height: 576px;
+  overflow: hidden;
+  object-fit: none;
+}
 /* ховер карточки */
 .business-card {
   position: absolute;
