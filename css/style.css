@@ -654,7 +654,7 @@ flex-direction: column;
   display: block;
   width: 14px;
   height: 14px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 .circle::before,
@@ -663,7 +663,7 @@ flex-direction: column;
   content: "";
   width: 14px;
   height: 14px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 .circle::before {
