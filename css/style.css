@@ -640,11 +640,11 @@ flex-direction: column;
   background-color: #000000;
 }
 .crown {
+  width: 360px;
   padding-top: 13px;
   padding-left: 16px;
-  width: 360px;
-  height: 40px;
-  border-radius: 2px;
+  /* height: 40px; */
+  /* border-radius: 2px; */
   background-color: #a6a6a6;
 }
 .crown:hover,
