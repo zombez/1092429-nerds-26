@@ -537,6 +537,15 @@ border-radius: 50%;
 .slider-circle::after {
   left: 122px;
 }
+.strip::after {
+  content: '';
+  position: absolute;
+  width: 102px;
+  height: 2px;
+  left: 35px;
+  top: 49px;
+  background-color: green;
+}
 /* форма сетка */
 .field-radio-text {
   line-height: 20px;
