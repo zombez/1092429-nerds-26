@@ -68,6 +68,10 @@ a {
   display: flex;
   align-items: center;
 }
+.logo {
+  width: 160px;
+  height: 65px;
+}
 /* наведение и активация логотипа */
 .logo:hover,
 .logo:focus {
