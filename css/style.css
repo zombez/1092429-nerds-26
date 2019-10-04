@@ -68,8 +68,13 @@ a {
   display: flex;
   align-items: center;
 }
-.logo-img{
-  outline: 1px solid Blue;
+/* наведение и активация логотипа */
+.logo:hover,
+.logo:focus {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.3;
 }
 
 /* навигация */
@@ -400,7 +405,17 @@ a {
   align-items: center;
   outline: 1px solid Blue;
 }
-
+/* наведение и активация */
+.partners-link {
+  opacity: 0.2;
+}
+.partners-link:hover,
+.partners-link:focus {
+  opacity: 1;
+}
+.partners-link:active {
+  opacity: 0.1;
+}
 /* подвал */
 .page-footer {
   width: 1200px;
