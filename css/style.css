@@ -82,10 +82,12 @@ a {
 }
 
 /* навигация */
+.main-nav {
+  margin-left: 200px;
+}
 .main-nav-list {
   margin: 0;
   padding: 0;
-  margin-left: 200px;
   display: flex;
   list-style: none;
   line-height: 1.88;
@@ -543,10 +545,10 @@ flex-direction: column;
   margin-top: 58px;
   margin-right: 140px;
 }
-.cost-form {
-  /* display: flex;
-  flex-direction: column; */
-}
+/* .cost-form {
+  display: flex;
+  flex-direction: column;
+} */
 .form-fieldset {
   display: flex;
   flex-direction: column;
@@ -589,8 +591,8 @@ flex-direction: column;
   left: 35px;
   top: 30px;
   background-color: #00bc6c;
-  z-index: 2; */
-}
+  z-index: 2;
+} */
 /* форма сетка */
 .field-radio-text {
   line-height: 20px;
