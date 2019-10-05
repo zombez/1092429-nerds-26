@@ -278,6 +278,7 @@ a {
 /* блок вебсайтов */
 .web-section {
   width: 1200px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -290,17 +291,24 @@ a {
   width: 300px;
 }
 .practice-title {
+  margin-top: 26px;
   font-size: 24px;
   line-height: 1.25;
   outline: 1px solid Blue;
 }
 .practice-text {
+  margin-top: 26px;
   color: #283136;
   line-height: 1.5;
   outline: 1px solid Blue;
   }
 
   /* кнопки web */
+  .button,
+  .applications,
+  .presentation {
+    margin-top: 35px;
+  }
   .applications {
     background-color: #00ca74;
   }
@@ -325,6 +333,7 @@ a {
 /* блок о нас */
 .information-section {
   width: 1200px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -332,9 +341,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid #a6a6a6;
 }
 .information {
   width: 650px;
+  margin-top: 40px;
 }
 .information-slogan {
   font-size: 45px;
@@ -366,6 +377,7 @@ a {
   /* о компании */
   .company {
     width: 360px;
+    margin-top: 20px;
     margin-left: auto;
   }
   .image-sign {
@@ -400,6 +412,8 @@ a {
 /* сайты */
 .partners-section {
   width: 1200px;
+  min-height: 180px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -407,10 +421,14 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  outline: 1px solid Blue;
+  border: 2px solid #a6a6a6;
+  border-right: none;
+  border-left: none;
+  /* outline: 1px solid Blue; */
 }
 /* наведение и активация */
 .partners-link {
+  width: 200px;
   opacity: 0.2;
 }
 .partners-link:hover,
@@ -420,6 +438,17 @@ a {
 .partners-link:active {
   opacity: 0.1;
 }
+
+/* карта */
+.maps {
+  width: 1440px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+}
+
 /* подвал */
 .page-footer {
   width: 1200px;
@@ -691,6 +720,7 @@ flex-direction: column;
 .crown {
   width: 360px;
   padding: 13px 16px;
+  border-radius: 2px;
   background-color: #a6a6a6;
 }
 .crown:hover,
