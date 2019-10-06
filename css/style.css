@@ -93,7 +93,6 @@ a {
   line-height: 1.88;
   text-transform: uppercase;
   font-weight: 500;
-  outline: 1px solid Blue;
 }
 .main-nav-item {
   margin-left: 20px;
@@ -117,7 +116,6 @@ a {
   text-transform: uppercase;
   font-weight: 500;
   color: #000000;
-  outline: 1px solid Blue;
 }
 .basket::before {
   content: "";
@@ -130,7 +128,6 @@ a {
   background-image:url(../img/cart-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
-  outline: 1px solid Blue;
 }
 
 .basket:hover {
@@ -264,7 +261,6 @@ a {
   color: #ffffff;
   border-radius: 3px;
   border: none;
-  outline: 1px solid Blue;
 }
 .button:hover,
 .button:focus {
@@ -296,13 +292,11 @@ a {
   margin-top: 26px;
   font-size: 24px;
   line-height: 1.25;
-  outline: 1px solid Blue;
 }
 .practice-text {
   margin-top: 26px;
   color: #283136;
   line-height: 1.5;
-  outline: 1px solid Blue;
   }
 
   /* кнопки web */
@@ -352,63 +346,58 @@ a {
 .information-slogan {
   font-size: 45px;
   line-height: 1;
-  outline: 1px solid Blue;
 }
 .information-subtitle {
-  color: #283136;
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
-  outline: 1px solid Blue;
+  color: #283136;
 }
 .development-title {
+  margin-top: 47px;
   color: #283136;
   font-weight: 700;
   line-height: 1.5;
-  outline: 1px solid Blue;
 
   }
 .development-list {
+  margin-top: 30px;
   list-style: none;
   line-height: 1.5;
-  outline: 1px solid Blue;
 
   }
 .development-item {
+  line-height: 2;
   color: #283136;
   }
 
   /* о компании */
   .company {
     width: 360px;
-    margin-top: 20px;
     margin-left: auto;
   }
-  .image-sign {
-    outline: 1px solid Blue;
-  }
 .stability-slogan {
+  margin-top: 40px;
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
   color: #000000;
-  outline: 1px solid Blue;
 }
 .stability-list {
   margin: 0;
+  margin-top: 50px;
   padding: 0;
-  display: flex;
-}
-.stability-list {
   list-style: none;
+  display: flex;
 }
 .total {
   font-size: 45px;
   line-height: 1;
-  outline: 1px solid Blue;
 }
 .total-text {
   line-height: 1.13;
   color: #283136;
-  outline: 1px solid Blue;
 }
 
 /* сайты */
@@ -491,6 +480,7 @@ a {
 /* подвал */
 .page-footer {
   width: 1200px;
+  margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -502,11 +492,15 @@ a {
 }
 .footer-title {
   font-size: 36px;
+  font-weight: 700;
   line-height: 1;
 }
 .footer-paragraph {
+  font-size: 16px;
+  font-weight:400;
   line-height: 1.38;
   color: #444444;
+
 }
 .socials-list {
   display: flex;
