@@ -539,6 +539,7 @@ a {
   }
   /* попап */
   .catalog-window {
+    position: absolute;
     display: none;
     width: 960px;
     height: 590px;
