@@ -442,10 +442,10 @@ a {
 }
 .write-to-us {
   position: absolute;
-  margin-left: 140px;
-  margin-bottom: 53px;
-  bottom: 0;
+  /* bottom: 0; */
   min-width: 319px;
+  top: 60px;
+  left: 90px;
   min-height: 308px;
   text-align: center;
   border: solid 1px rgba(0, 1, 1, 0.1);
