@@ -234,9 +234,37 @@
         </div>
           </section>
 
-            <!-- <div class="maps">
-             здесь будет карта
-            </div> -->
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003203!2d30.320858716226894!3d59.93871916905401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1570283690549!5m2!1sru!2sru" width="1440" height="416"  style="border:0;" allowfullscreen=""></iframe>
+              <div class="write-to-us">
+                  <h3 class="title-maps">NЁRDS DESIGN STUDIO</h3>
+                   <p class="text-maps">191186, Санкт-Петербург<br>ул. Б. Конюшенная, д. 19/8</p>
+                   <a class="phone" href="tel:+78122757575">тел. +7(812)275-75-75</a>
+                   <a class="button maps-button" href="#">Напишите нам</a>
+                 </div>
+
+                 <div class="catalog-window">
+                  <form class="window-form" action="https://echo.htmlacademy.ru/" method="post">
+                   <fieldset class="form-fieldset">
+                    <legend class="form-legend">Напишите нам</legend>
+                     <label class="field-window">
+                       <input class="field-window-imput" type="text" name="fullname" placeholder="Имя Фамилия">
+                        <span class="field-window-text">Ваше имя:</span>
+                     </label>
+                     <label class="field-window">
+                       <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
+                        <span class="field-window-text">Ваш e-mail:</span>
+                     </label>
+                     <label class="field-window">
+                       <textarea class="field-window-input"  name="letter" placeholder="В свободной форме"></textarea>
+                        <span class="field-window-text">Текст письма:</span>
+                     </label>
+                     <button class="button" type="submit">отправить</button>
+                   </fieldset>
+                  </form>
+                   <button class="cross" type="button">крестик</button>
+                 </div>
+                </div>
        </main>
 
        <footer class="page-footer">
@@ -271,27 +299,65 @@
           <h2 class="footer-title">Давайте дружить, это выгодно!</h2>
           <p class="footer-paragraph">Скидка 10% для друзей из социальных сетей.</p>
           </div>
-      </footer>
-      <!-- <div class="catalog-window">
-        <form class="window-form" action="" method="post">
-         <fieldset class="form-fieldset">
-          <legend class="form-legend">Напишите нам</legend>
-           <label class="field-window">
-             <input class="field-window-imput" type="text" name="fullname" placeholder="Имя Фамилия">
-              <span class="field-window-text">Ваше имя:</span>
-           </label>
-           <label class="field-window">
-             <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
-              <span class="field-window-text">Ваш e-mail:</span>
-           </label>
-           <label class="field-window">
-             <textarea class="field-window-input" type="text" name="letter" placeholder="В свободной форме"></textarea>
-              <span class="field-window-text">Текст письма:</span>
-           </label>
-           <button class="button" type="submit">отправить</button>
-         </fieldset>
-        </form>
-         <button class="cross" type="button">крестик</button>
-       </div> -->
-       </body>
+        </footer>
+
+        <script>
+
+          var link = document.querySelector(".maps-button");
+          var popup = document.querySelector(".catalog-window");
+          var close = popup.querySelector(".cross");
+          var form = popup.querySelector("form");
+          var fullname = popup.querySelector("[name=fullname]");
+          var email = popup.querySelector("[name=email]");
+          var isStorageSupport = true;
+          var storage = "";
+
+          // try {
+          // storage = localStorage.getItem("fullname");
+          // } catch (err) {
+          // isStorageSupport = false;
+          // }
+
+          link.addEventListener("click", function (evt) {
+          evt.preventDefault();
+          popup.classList.add("modal-show");
+
+          // if (storage) {
+          // fullname.value = storage;
+          // email.focus();
+          // } else {
+          // fullname.focus();
+          // }
+           });
+
+          close.addEventListener("click", function (evt) {
+          evt.preventDefault();
+          popup.classList.remove("modal-show");
+          popup.classList.remove("modal-error");
+          });
+
+          // form.addEventListener("submit", function (evt) {
+          // if (!fullname.value || !email.value) {
+          // evt.preventDefault();
+          // popup.classList.add("modal-error");
+          // console.log("Нужно ввести Имя Фамилия и email");
+          // }
+          // else {
+          // if (isStorageSupport) {
+          // localStorage.setItem("login", fullname.value);
+          //   }
+          // }
+          // });
+
+          window.addEventListener("keydown", function (evt) {
+          if (evt.keyCode === 27) {
+          evt.preventDefault();
+          if (popup.classList.contains("modal-show")) {
+          popup.classList.remove("modal-show");
+          popup.classList.remove("modal-error");
+          }
+           }
+           });
+        </script>
+   </body>
        </html>
