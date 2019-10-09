@@ -575,8 +575,40 @@ a {
     line-height: 1.13;
     color: rgba(68, 68, 68, 0.5);
   }
-  .cross {
 
+  /* крестик */
+  .cross {
+      position: absolute;
+      top: 75px;
+      right: 90px;
+      width: 21px;
+      height: 21px;
+      /* cursor: pointer; */
+      border: 2px solid #e62f57;
+      /* border-radius: 50%; */
+      opacity: 0.3;
+  }
+  .cross:hover {
+   opacity: 1;
+  }
+  .cross:active {
+    opacity: 0.1;
+  }
+  .close:before,
+  .close:after {
+      content: "";
+      position: absolute;
+      top: 21px;
+      left: 10px;
+      width: 26px;
+      height: 4px;
+      background-color: #e62f57;
+  }
+  .close:before {
+      transform: rotate(45deg);
+  }
+  .close:after {
+      transform: rotate(-45deg);
   }
 
   /* скрипт */
