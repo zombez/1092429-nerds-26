@@ -584,8 +584,8 @@ a {
       width: 21px;
       height: 21px;
       /* cursor: pointer; */
-      border: 2px solid #e62f57;
-      /* border-radius: 50%; */
+      border: none;
+      background-color: inherit;
       opacity: 0.3;
   }
   .cross:hover {
@@ -594,20 +594,20 @@ a {
   .cross:active {
     opacity: 0.1;
   }
-  .close:before,
-  .close:after {
+  .cross:before,
+  .cross:after {
       content: "";
       position: absolute;
-      top: 21px;
-      left: 10px;
+      top: 8px;
+      left: -2px;
       width: 26px;
       height: 4px;
       background-color: #e62f57;
   }
-  .close:before {
+  .cross:before {
       transform: rotate(45deg);
   }
-  .close:after {
+  .cross:after {
       transform: rotate(-45deg);
   }
 
