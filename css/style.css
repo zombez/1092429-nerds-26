@@ -552,10 +552,9 @@ a {
     box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
     background-color: #eeeeee;
   }
-  /* .window-form {
-    display: flex;
-    flex-direction: row;
-  } */
+  .window-form {
+    margin-left: 100px;
+  }
   .form-fieldset {
     /* position: absolute;
     top: 70px;
@@ -570,13 +569,16 @@ a {
   }
   .field-window-text {
     display: block;
-    margin-top: 45px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.13;
+    text-align: start;
     color: #000000;
   }
   .field-window-input {
+    display: block;
+    margin-right: 40px;
+    padding-left: 8px;
     width: 360px;
     height: 50px;
     border: solid 2px #d7dcde;
@@ -586,25 +588,30 @@ a {
     color: rgba(68, 68, 68, 0.5);
   }
   .field-window-textarea {
+    display: block;
+    margin-top: 60px;
+    padding-top: 14px;
+    padding-left: 15px;
     width: 760px;
     height: 118px;
     border: solid 2px #d7dcde;
   }
   .name-email-container {
     display: flex;
+    margin-top: 74px;
   }
 
   /* крестик */
   .cross {
-      position: absolute;
-      top: 75px;
-      right: 90px;
-      width: 21px;
-      height: 21px;
-      /* cursor: pointer; */
-      border: none;
-      background-color: inherit;
-      opacity: 0.3;
+    position: absolute;
+    top: 75px;
+    right: 90px;
+    width: 21px;
+    height: 21px;
+    /* cursor: pointer; */
+    border: none;
+    background-color: inherit;
+    opacity: 0.3;
   }
   .cross:hover {
    opacity: 1;
