@@ -373,9 +373,9 @@ a {
   }
 
   /* о компании */
-  .company {
-    width: 360px;
-    margin-left: auto;
+.company {
+  width: 360px;
+  margin-left: auto;
   }
 .stability-slogan {
   margin-top: 40px;
@@ -392,6 +392,7 @@ a {
   display: flex;
 }
 .total {
+  margin-right: 26px;
   font-size: 45px;
   line-height: 1;
 }
@@ -590,6 +591,15 @@ a {
     line-height: 1.13;
     color: rgba(68, 68, 68, 0.5);
   }
+  .field-window-input:hover {
+    border: 2px solid #b4b9bb;
+  }
+  .field-window-input:focus {
+    border: 2px solid #000000;
+  }
+  .field-window-input:invalid {
+    border: 2px solid #e74246;
+  }
   .field-window-textarea {
     display: block;
     margin-bottom: 12px;
@@ -745,7 +755,9 @@ flex-direction: column;
 }
 /* ползунок */
 .range-slider {
-  display: flex;
+  /* display: flex; */
+  display: block;
+  margin-top: 68px;
   position: relative;
   width: 261px;
   padding: 20px 15px;
@@ -774,6 +786,10 @@ flex-direction: column;
   z-index: 2;
 } */
 /* форма сетка */
+.field-radio {
+  display: block;
+  margin-top: 15px;
+}
 .field-radio-text {
   line-height: 20px;
   color: #283136;
@@ -783,6 +799,10 @@ flex-direction: column;
   color: #283136;
 }
 /* форма особенности */
+.field-checkbox {
+  display: block;
+  margin-top: 17px;
+}
 .field-checkbox-text {
   line-height: 20px;
   color: #283136;
