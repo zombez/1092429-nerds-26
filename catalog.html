@@ -246,19 +246,24 @@
                  <div class="catalog-window">
                   <form class="window-form" action="https://echo.htmlacademy.ru/" method="post">
                    <fieldset class="form-fieldset">
-                    <legend class="form-legend">Напишите нам</legend>
+                    <legend class="form-legend-popup">Напишите нам</legend>
+
+                    <div class="name-email-container">
                      <label class="field-window">
-                       <input class="field-window-imput" type="text" name="fullname" placeholder="Имя Фамилия">
                         <span class="field-window-text">Ваше имя:</span>
+                       <input class="field-window-input" type="text" name="fullname" placeholder="Имя Фамилия">
                      </label>
                      <label class="field-window">
-                       <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
                         <span class="field-window-text">Ваш e-mail:</span>
+                       <input class="field-window-input" type="email" name="email" placeholder="email@example.com">
                      </label>
+                    </div>
+
                      <label class="field-window">
-                       <textarea class="field-window-input"  name="letter" placeholder="В свободной форме"></textarea>
                         <span class="field-window-text">Текст письма:</span>
+                       <textarea class="field-window-textarea"  name="letter" placeholder="В свободной форме"></textarea>
                      </label>
+
                      <button class="button" type="submit">отправить</button>
                    </fieldset>
                   </form>
