@@ -733,12 +733,9 @@ flex-direction: column;
   max-width: 260px;
   min-height: 700px;
   margin-top: 58px;
-  margin-right: 140px;
+  margin-right: 120px;
+  margin-left: 20px;
 }
-/* .cost-form {
-  display: flex;
-  flex-direction: column;
-} */
 .form-fieldset {
   display: flex;
   flex-direction: column;
@@ -785,12 +782,35 @@ flex-direction: column;
   background-color: #00bc6c;
   z-index: 2;
 } */
+.slider-values {
+  display: flex;
+  justify-content: space-between;
+
+}
+.field-from-text,
+.field-before-text {
+  color: #283136;
+}
+.field-from-imput,
+.field-before-imput {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: 38px;
+  border: none;
+  text-align: center;
+  background-color: #eeeeee;
+}
 /* форма сетка */
+.grid {
+  margin-top: 40px;
+}
 .field-radio {
   display: block;
   margin-top: 15px;
 }
 .field-radio-text {
+  margin-left: 10px;
   line-height: 20px;
   color: #283136;
 }
@@ -799,18 +819,23 @@ flex-direction: column;
   color: #283136;
 }
 /* форма особенности */
+.features {
+  margin-top: 40px;
+}
 .field-checkbox {
   display: block;
   margin-top: 17px;
 }
 .field-checkbox-text {
+  margin-left: 10px;
   line-height: 20px;
   color: #283136;
 }
 
 /* кнопка в форме */
 .show {
-  background-color: #ffffff;
+  margin-top: 45px;
+  background-color: #eeeeee;
   color: #000000;
   }
   .show:hover {
@@ -865,6 +890,7 @@ flex-direction: column;
   margin-left: 20px;
 }
 .names-link {
+  margin-right: 15px;
   line-height: 1.29;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -890,7 +916,6 @@ flex-direction: column;
 .down path:active {
   fill: #000000;
 }
-
 .up  {
   position: relative;
   line-height: 1.88;
