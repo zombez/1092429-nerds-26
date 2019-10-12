@@ -806,26 +806,36 @@ flex-direction: column;
 .grid {
   margin-top: 40px;
 }
+
 /* картинка для радио */
 .field-radio {
   display: block;
   margin-top: 15px;
-  position: relative;
-  width: 25px;
-  height: 25px;
+}
+.form-radio-on {
   opacity: 0.4;
-  border-radius: 50%;
-  background-color: #4d4d4d;
+}
+.form-radio-on:hover,
+.form-radio-on:focus {
+  opacity: 1;
+}
+.form-radio-on:active {
+  opacity: 0.1;
+}
+.form-radio-off {
+  opacity: 0.4;
+}
+.form-radio-off:hover,
+.form-radio-off:focus {
+  opacity: 1;
+}
+.form-radio-off:active {
+  opacity: 0.1;
 }
 .field-radio-input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image:url(../img/radio-on.svg);
-  background-repeat: no-repeat;
+  display: none;
 }
+
 /* текст радио */
 .field-radio-text {
   margin-left: 10px;
