@@ -699,6 +699,10 @@ a {
 
   /* catalog */
 
+.score  {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fb565a;
+}
 .page-main-catalog {
 display: flex;
 flex-direction: column;
@@ -715,7 +719,6 @@ flex-direction: column;
   line-height: 1;
   text-align: center;
   color: #000000;
-  outline: 1px solid Blue;
 }
 
 /* главный сектор */
@@ -858,6 +861,29 @@ flex-direction: column;
   margin-left: 10px;
   line-height: 20px;
   color: #283136;
+}
+.field-checkbox-on {
+  opacity: 0.4;
+}
+.field-checkbox-on:hover,
+.field-checkbox-on:focus {
+  opacity: 1;
+}
+.field-checkbox-on:active {
+  opacity: 0.1;
+}
+.field-checkbox-off {
+  opacity: 0.4;
+}
+.field-checkbox-off:hover,
+.field-checkbox-off:focus {
+  opacity: 1;
+}
+.field-checkbox-off:active {
+  opacity: 0.1;
+}
+.field-checkbox-input {
+  display: none;
 }
 
 /* кнопка в форме */
