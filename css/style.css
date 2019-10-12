@@ -736,8 +736,7 @@ flex-direction: column;
   max-width: 260px;
   min-height: 700px;
   margin-top: 58px;
-  margin-right: 120px;
-  margin-left: 20px;
+  margin-right: 140px;
 }
 .form-fieldset {
   display: flex;
