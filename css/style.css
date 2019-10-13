@@ -173,6 +173,8 @@ a {
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 .slider-controls label::after {
   content: "";
@@ -489,6 +491,7 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
+  padding-bottom: 100px;
 }
 .container-title {
   margin-left: 139px;
