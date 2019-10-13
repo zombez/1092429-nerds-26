@@ -756,7 +756,7 @@ flex-direction: column;
 .range-slider {
   /* display: flex; */
   display: block;
-  margin-top: 68px;
+  margin-top: 56px;
   position: relative;
   width: 261px;
   padding: 20px 15px;
@@ -806,7 +806,7 @@ flex-direction: column;
 
 /* форма сетка */
 .grid {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /* картинка для радио */
@@ -821,7 +821,7 @@ flex-direction: column;
 .form-radio-on:focus {
   opacity: 1;
 }
-.form-radio-on:active {
+.form-radio-on:disabled {
   opacity: 0.1;
 }
 .form-radio-off {
@@ -831,7 +831,7 @@ flex-direction: column;
 .form-radio-off:focus {
   opacity: 1;
 }
-.form-radio-off:active {
+.form-radio-off:disabled {
   opacity: 0.1;
 }
 .field-radio-input {
@@ -842,6 +842,7 @@ flex-direction: column;
 .field-radio-text {
   margin-left: 10px;
   line-height: 20px;
+  vertical-align: 6px;
   color: #283136;
 }
 .field-radio-text:hover {
@@ -850,7 +851,7 @@ flex-direction: column;
 }
 /* форма особенности */
 .features {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .field-checkbox {
   display: block;
@@ -859,6 +860,7 @@ flex-direction: column;
 .field-checkbox-text {
   margin-left: 10px;
   line-height: 20px;
+  vertical-align: 6px;
   color: #283136;
 }
 .field-checkbox-on {
@@ -868,7 +870,7 @@ flex-direction: column;
 .field-checkbox-on:focus {
   opacity: 1;
 }
-.field-checkbox-on:active {
+.field-checkbox-on:disabled {
   opacity: 0.1;
 }
 .field-checkbox-off {
@@ -878,7 +880,7 @@ flex-direction: column;
 .field-checkbox-off:focus {
   opacity: 1;
 }
-.field-checkbox-off:active {
+.field-checkbox-off:disabled {
   opacity: 0.1;
 }
 .field-checkbox-input {
@@ -887,7 +889,7 @@ flex-direction: column;
 
 /* кнопка в форме */
 .show {
-  margin-top: 45px;
+  margin-top: 20px;
   background-color: #eeeeee;
   color: #000000;
   }
@@ -920,7 +922,7 @@ flex-direction: column;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 59px;
+  margin-bottom: 45px;
 }
 .sorting-caption {
   display: block;
