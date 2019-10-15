@@ -71,6 +71,7 @@ a {
 .logo {
   width: 160px;
   height: 65px;
+  margin-top: 4px;
 }
 /* наведение и активация логотипа */
 .logo:hover,
@@ -83,7 +84,8 @@ a {
 
 /* навигация */
 .main-nav {
-  margin-left: 200px;
+  margin-left: 182px;
+  margin-top: 20px;
 }
 .main-nav-list {
   margin: 0;
@@ -96,6 +98,7 @@ a {
 }
 .main-nav-item {
   margin-left: 20px;
+  padding-right: 26px;
 }
 .main-nav-link {
   color: #000000;
@@ -110,6 +113,7 @@ a {
 /* корзина */
 .basket {
   margin-left: auto;
+  margin-top: 21px;
   position: relative;
   padding-left: 30px;
   line-height: 1.88;
@@ -121,7 +125,7 @@ a {
   content: "";
   position: absolute;
   top: 14px;
-  left: 3px;
+  right: 100px;
   width: 15px;
   height: 15px;
   transform: translateY(-50%);
@@ -246,7 +250,8 @@ a {
 .slider-item p {
   max-width: 430px;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 41px;
+  line-height: 1.5;
 }
 
 /* кнопка слайдера */
@@ -362,16 +367,25 @@ a {
   font-weight: 700;
   line-height: 1.5;
 
-  }
+}
 .development-list {
   margin-top: 30px;
   list-style: none;
   line-height: 1.5;
-
-  }
+}
 .development-item {
   line-height: 2;
   color: #283136;
+  }
+.development-item::before {
+  content: "";
+  position: absolute;
+  left: 370px;
+  width: 25px;
+  /* transform: translateY(-50%); */
+  border: 1px solid #e62f57;
+  background-repeat: no-repeat;
+  /* background-position: 0 0; */
   }
 
   /* о компании */
@@ -421,6 +435,14 @@ a {
   border-right: none;
   border-left: none;
   /* outline: 1px solid Blue; */
+}
+.partners-link::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 52px;
+  border: 1px solid #a6a6a6;
+  background-repeat: no-repeat;
 }
 /* наведение и активация */
 .partners-link {
