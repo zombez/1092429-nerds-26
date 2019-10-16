@@ -177,8 +177,9 @@ a {
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-top: 11px;
+  margin-left: 10px;
+  margin-right: 7px;
 }
 .slider-controls label::after {
   content: "";
@@ -242,7 +243,7 @@ a {
 .slider-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -294,23 +295,27 @@ a {
 }
 .services {
   width: 300px;
+  margin-right: 60px;
 }
 .practice-title {
-  margin-top: 26px;
+  margin-top: 21px;
   font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
   line-height: 1.25;
 }
 .practice-text {
-  margin-top: 26px;
+  margin-top: -8px;
   color: #283136;
   line-height: 1.5;
   }
 
   /* кнопки web */
-  .button,
+  .web-sites,
   .applications,
   .presentation {
-    margin-top: 35px;
+    margin-top: 34px;
+    width: 160px;
   }
   .applications {
     background-color: #00ca74;
@@ -351,29 +356,34 @@ a {
   margin-top: 40px;
 }
 .information-slogan {
+  margin: 0;
+  margin-top: 34px;
   font-size: 45px;
+  font-weight: 500;
   line-height: 1;
 }
 .information-subtitle {
-  margin-top: 35px;
+  margin-top: 33px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #283136;
 }
 .development-title {
-  margin-top: 47px;
+  margin-top: 35px;
   color: #283136;
   font-weight: 700;
   line-height: 1.5;
 
 }
 .development-list {
-  margin-top: 30px;
+  margin-top: 20px;
   list-style: none;
   line-height: 1.5;
+  margin-left: -3px;
 }
 .development-item {
+  margin-top: 16px;
   position: relative;
   line-height: 2;
   color: #283136;
@@ -382,7 +392,7 @@ a {
   content: "";
   position: absolute;
   top: 15px;
-  left: -45px;
+  left: -36px;
   width: 25px;
   /* transform: translateY(-50%); */
   border: 1px solid #e62f57;
@@ -395,12 +405,14 @@ a {
   width: 360px;
   margin-left: auto;
   }
+.sign {
+  margin-top: 19px;
+  }
 .stability-slogan {
-  margin-top: 40px;
+  text-transform: uppercase;
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
-  color: #000000;
 }
 .stability-list {
   margin: 0;
