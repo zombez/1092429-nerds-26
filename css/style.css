@@ -451,13 +451,24 @@ a {
   border-left: none;
   /* outline: 1px solid Blue; */
 }
+.partners-link {
+  position: relative;
+}
 .partners-link::before {
   content: "";
   position: absolute;
+  top: 10px;
+  left: -50px;
   width: 2px;
   height: 52px;
   border: 1px solid #a6a6a6;
   background-repeat: no-repeat;
+}
+.partners-link:nth-child(1)::before {
+  display: none;
+}
+.partners-link:nth-child(3)::before {
+  top: -5px;
 }
 /* наведение и активация */
 .partners-link {
