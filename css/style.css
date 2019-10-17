@@ -404,11 +404,12 @@ a {
 .company {
   width: 360px;
   margin-left: auto;
-  }
-.sign {
-  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   }
 .stability-slogan {
+  margin-top: 31px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
@@ -416,15 +417,16 @@ a {
 }
 .stability-list {
   margin: 0;
-  margin-top: 50px;
+  margin-top: 26px;
   padding: 0;
   list-style: none;
   display: flex;
 }
 .total {
-  margin-right: 26px;
+  display: block;
+  margin-right: 8px;
   font-size: 45px;
-  line-height: 1;
+  line-height: 0.22;
   font-weight: 700;
 }
 .total-text {
@@ -433,12 +435,15 @@ a {
   line-height: 1.13;
   color: #283136;
 }
+sup {
+  font-size: 60%;
+}
 
 /* сайты */
 .partners-section {
   width: 1200px;
-  min-height: 180px;
-  margin-top: 60px;
+  min-height: 184px;
+  margin-top: 54px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -488,8 +493,8 @@ a {
   position: relative;
   width: 1440px;
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 212px;
+  /* margin-right: auto; */
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -497,34 +502,40 @@ a {
   position: absolute;
   /* bottom: 0; */
   min-width: 319px;
-  top: 60px;
-  left: 90px;
+  top: 54px;
+  left: 161px;
   min-height: 308px;
   text-align: center;
   border: solid 1px rgba(0, 1, 1, 0.1);
   background-color: #ffffff;
 }
 .title-maps {
-  margin-top: 50px;
+  margin-top: 48px;
+  margin-right: 28px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.67;
   color: #000000;
 }
 .text-maps {
-  margin-top: 34px;
+  margin: 0;
+  margin-top: 22px;
+  margin-right: 27px;
+  margin-bottom: 18px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.13;
   color: #666666;
 }
 .phone {
+  margin-right: 57px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.13;
   color: #666666;
 }
 .maps-button {
+  width: 219px;
   margin-top: 37px;
   margin-left: auto;
   margin-right: auto;
@@ -533,7 +544,7 @@ a {
 /* подвал */
 .page-footer {
   width: 1200px;
-  margin-top: 75px;
+  margin-top: 34px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -542,7 +553,8 @@ a {
   padding-bottom: 100px;
 }
 .container-title {
-  margin-left: 139px;
+  margin-top: 6px;
+  margin-left: 140px;
 }
 .footer-title {
   font-size: 36px;
@@ -550,6 +562,7 @@ a {
   line-height: 1;
 }
 .footer-paragraph {
+  margin-top: -19px;
   font-size: 16px;
   font-weight:400;
   line-height: 1.38;
@@ -597,8 +610,8 @@ a {
     display: none;
     width: 960px;
     height: 590px;
-    top: calc(50% - 295px);
-    left: calc(50% - 480px);
+    top: calc(50% - 347px);
+    left: calc(50% - 460px);
     text-align: center;
     /* border: 1px solid rgba(0, 1, 1, 0.1); */
     box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
@@ -615,7 +628,8 @@ a {
   }
   .form-legend-popup {
     display: block;
-    margin-top: 70px;
+    margin-top: 66px;
+    margin-left: -16px;
     font-size: 45px;
     font-weight: 500;
     line-height: 1;
@@ -623,7 +637,8 @@ a {
   }
   .field-window-text {
     display: block;
-    margin-bottom: 12px;
+    margin-top: -11px;
+    margin-left: 1px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.13;
@@ -632,8 +647,9 @@ a {
   }
   .field-window-input {
     display: block;
+    margin-top: 8px;
     margin-right: 40px;
-    padding-left: 8px;
+    padding-left: 13px;
     width: 360px;
     height: 50px;
     border: solid 2px #d7dcde;
@@ -653,9 +669,11 @@ a {
   }
   .field-window-textarea {
     display: block;
-    margin-bottom: 12px;
-    padding-top: 14px;
-    padding-left: 15px;
+    margin-top: 17px;
+    margin-left: -14px;
+    margin-bottom: 49px;
+    padding-top: 11px;
+    padding-left: 12px;
     width: 760px;
     height: 118px;
     border: solid 2px #d7dcde;
@@ -664,12 +682,17 @@ a {
     display: flex;
     margin-top: 48px;
     margin-bottom: 36px;
+    margin-left: -15px;
   }
-
+   /* кнопка попапа */
+   .button-popup {
+    width: 260px;
+    margin-left: -15px;
+   }
   /* крестик */
   .cross {
     position: absolute;
-    top: 75px;
+    top: 79px;
     right: 90px;
     width: 21px;
     height: 21px;
