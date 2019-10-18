@@ -813,8 +813,8 @@ flex-direction: column;
   background-color: #eeeeee;
 }
 .main-title {
-  margin-top: 100px;;
-  margin-bottom: 115px;
+  margin-top: 77px;;
+  margin-bottom: 109px;
   font-size: 55px;
   line-height: 1;
   text-align: center;
@@ -841,6 +841,8 @@ flex-direction: column;
 .form-fieldset {
   display: flex;
   flex-direction: column;
+  margin-top: -3px;
+  margin-left: -11px;
 }
 .form-legend {
   display: block;
@@ -856,7 +858,7 @@ flex-direction: column;
 .range-slider {
   /* display: flex; */
   display: block;
-  margin-top: 56px;
+  margin-top: 42px;
   position: relative;
   width: 261px;
   padding: 20px 15px;
@@ -887,6 +889,9 @@ flex-direction: column;
 .slider-values {
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-left: 1px;
 
 }
 .field-from-text,
@@ -896,7 +901,7 @@ flex-direction: column;
 .field-from-imput,
 .field-before-imput {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 7px;
   width: 80px;
   height: 38px;
   border: none;
@@ -906,13 +911,14 @@ flex-direction: column;
 
 /* форма сетка */
 .grid {
-  margin-top: 30px;
+  margin-top: 47px;
 }
 
 /* картинка для радио */
 .field-radio {
   display: block;
-  margin-top: 15px;
+  margin-top: 7px;
+  margin-bottom: 4px;
 }
 .form-radio-on {
   opacity: 0.4;
@@ -940,7 +946,7 @@ flex-direction: column;
 
 /* текст радио */
 .field-radio-text {
-  margin-left: 10px;
+  margin-left: 7px;
   line-height: 20px;
   vertical-align: 6px;
   color: #283136;
@@ -951,14 +957,15 @@ flex-direction: column;
 }
 /* форма особенности */
 .features {
-  margin-top: 20px;
+  margin-top: 29px;
 }
 .field-checkbox {
   display: block;
-  margin-top: 17px;
+  margin-top: 8px;
+  margin-bottom: 5px;
 }
 .field-checkbox-text {
-  margin-left: 10px;
+  margin-left: 8px;
   line-height: 20px;
   vertical-align: 6px;
   color: #283136;
@@ -989,7 +996,8 @@ flex-direction: column;
 
 /* кнопка в форме */
 .show {
-  margin-top: 20px;
+  width: 260px;
+  margin-top: 30px;
   background-color: #eeeeee;
   color: #000000;
   }
@@ -1018,11 +1026,12 @@ flex-direction: column;
 }
 /* перечень названий */
 .sorting {
+  margin-bottom: 37px;
+  margin-top: -8px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 45px;
 }
 .sorting-caption {
   display: block;
@@ -1035,14 +1044,16 @@ flex-direction: column;
 }
 .names-list {
   margin-top: 63px;
+  margin-right: -15px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   list-style: none;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .names-item {
-  margin-left: 20px;
+  margin-left: 14px;
 }
 .names-link {
   margin-right: 15px;
@@ -1155,9 +1166,11 @@ flex-direction: column;
   display: block;
 }
 .card-name {
+  padding-top: 8px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.67;
+  text-transform: uppercase;
   color: #000000;
 }
 .card-name:hover {
@@ -1167,30 +1180,34 @@ color: #fb565a;
   color: rgba(0, 0, 0, 0.3);
 }
 .card-information {
+  margin-top: -4px;
+  margin-left: 2px;
   font-size: 16px;
   line-height: 1.13;
   color: #666666;
 }
 .cost {
   display: block;
+  width: 200px;
+  height: 50px;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 43px;
-  padding-top: 15px;
-  min-width: 200px;
-  min-height: 50px;
+  margin-left: 79px;
+  padding-top: 17px;
+  padding-left: 3px;
 }
   /* кнопки под карточками */
 .pagination {
   display: flex;
+  margin-top: 29px;
+  margin-left: 1px;
+  text-transform: uppercase;
 }
 .pagination-link {
   display: block;
   width: 50px;
   height: 50px;
   margin-right: 11px;
-  padding-top: 14px;
+  padding-top: 16px;
   border-radius: 2px;
   font-size: 16px;
   font-weight: 500;
@@ -1200,7 +1217,7 @@ color: #fb565a;
   background-color: #eeeeee;
 }
 .pagination-link.initial {
-  padding-top: 12px;
+  padding-top: 14px;
   border: solid 3px #dbdbdb;
   background-color: #ffffff;
 }
