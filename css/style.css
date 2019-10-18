@@ -418,6 +418,7 @@ a {
 .stability-list {
   margin: 0;
   margin-top: 26px;
+  margin-right: -31px;
   padding: 0;
   list-style: none;
   display: flex;
@@ -456,6 +457,22 @@ sup {
   border-left: none;
   /* outline: 1px solid Blue; */
 }
+.partners-1 {
+  margin-top: 15px;
+  margin-left: 31px;
+}
+.partners-2 {
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.partners-3 {
+  margin-top: 3px;
+  margin-left: -2px;
+}
+.partners-4 {
+  margin-top: 11px;
+  margin-left: -15px;
+}
 .partners-link {
   position: relative;
 }
@@ -472,8 +489,17 @@ sup {
 .partners-link:nth-child(1)::before {
   display: none;
 }
+.partners-link:nth-child(2)::before {
+  top: 20px;
+  left: -41px;
+}
 .partners-link:nth-child(3)::before {
-  top: -5px;
+  top: 4px;
+  left: -61px;
+}
+.partners-link:nth-child(4)::before {
+  top: 23px;
+  left: -81px;
 }
 /* наведение и активация */
 .partners-link {
