@@ -854,7 +854,7 @@ flex-direction: column;
   font-weight: 700;
   color: #000000;
 }
-/* ползунок */
+/* блок ползунка */
 .range-slider {
   display: flex;
   justify-content: space-between;
@@ -865,9 +865,9 @@ flex-direction: column;
   background-color: #eeeeee;
   z-index: 1;
 }
+/* кнопка ползунка */
 .slider-button1,
 .slider-button2 {
-  margin-right: 122px;
   margin-left: 4px;
   position: relative;
   display: block;
@@ -876,9 +876,12 @@ flex-direction: column;
   background-color: #ffffff;
   border-radius: 50%;
   border: none;
-  /* border: 8px solid #ffffff; */
   z-index: 3;
 }
+.slider-button2 {
+  margin-left: 89px;
+}
+/* точка в кнопке ползунка */
 .slider-button1::before,
 .slider-button2::before {
   content: "";
@@ -892,16 +895,28 @@ flex-direction: column;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
 }
+/* полоса ползунка */
 .strip1::after {
   content: "";
   position: absolute;
-  width: 203px;
+  width: 125px;
   height: 2px;
   left: 35px;
   top: 39px;
   background-color: #00bc6c;
   z-index: 2;
 }
+.strip2::after {
+  content: "";
+  position: absolute;
+  width: 61px;
+  height: 2px;
+  left: 178px;
+  top: 39px;
+  background-color: #00bc6c;
+  z-index: 2;
+}
+/* выбор внизу ползунка */
 .slider-values {
   display: flex;
   justify-content: space-between;
