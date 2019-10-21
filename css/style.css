@@ -517,8 +517,8 @@ sup {
 /* карта */
 .maps {
   position: relative;
-  width: 91%;
-  min-width: 1440px;
+  width: 92%%;
+  max-width: 1477px;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -549,8 +549,10 @@ sup {
   margin-top: 22px;
   margin-right: 35px;
   margin-bottom: 18px;
+  padding-left: 47px;
   font-size: 16px;
   font-weight: 400;
+  text-align: left;
   line-height: 1.13;
   color: #666666;
 }
