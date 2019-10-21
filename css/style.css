@@ -638,19 +638,17 @@ sup {
     width: 960px;
     height: 590px;
     top: calc(50% - 347px);
-    left: calc(50% - 460px);
+    left: calc(50% - 480px);
     text-align: center;
     /* border: 1px solid rgba(0, 1, 1, 0.1); */
     box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
     background-color: #eeeeee;
   }
   .window-form {
-    margin-left: 100px;
+    margin-top: 3px;
+    margin-left: 114px;
   }
   .form-fieldset {
-    /* position: absolute;
-    top: 70px;
-    left: 100px; */
     border: none;
   }
   .form-legend-popup {
@@ -673,7 +671,8 @@ sup {
     color: #000000;
   }
   .letter {
-    margin-left: -10px;
+    margin-left: -14px;
+    padding-top: 10px;
   }
   .field-window-input {
     display: block;
@@ -699,10 +698,10 @@ sup {
   }
   .field-window-textarea {
     display: block;
-    margin-top: 17px;
+    margin-top: 9px;
     margin-left: -14px;
     margin-bottom: 49px;
-    padding-top: 11px;
+    padding-top: 9px;
     padding-left: 12px;
     width: 760px;
     height: 118px;
@@ -717,6 +716,7 @@ sup {
    /* кнопка попапа */
    .button-popup {
     width: 260px;
+    margin-top: -2px;
     margin-left: -15px;
    }
   /* крестик */
