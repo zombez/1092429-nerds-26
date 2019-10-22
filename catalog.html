@@ -70,42 +70,50 @@
 
               <fieldset class="form-fieldset">
                <legend class="form-legend grid">СЕТКА:</legend>
-                <label class="field-radio">
-                 <input class="field-radio-input" type="radio" name="grid" value="Адаптивная" checked>
-                  <span class="field-radio-text">Адаптивная</span>
-                 </label>
-                <label class="field-radio">
-                  <input class="field-radio-input" type="radio" name="grid" value="Фиксированная">
-                  <span class="field-radio-text">Фиксированная</span>
-                 </label>
-                <label class="field-radio">
-                 <input class="field-radio-input" type="radio" name="grid" value="Резиновая">
-                  <span class="field-radio-text">Резиновая</span>
-                </label>
+
+               <div class="form-radio">
+                 <input class="field-radio-input" type="radio" name="grid" id="radio-1" value="Адаптивная" checked>
+                 <label for="radio-1" class="field-radio">Адаптивная</label>
+                 </div>
+
+                 <div class="form-radio">
+                  <input class="field-radio-input" type="radio" name="grid" id="radio-2" value="Фиксированная">
+                  <label for="radio-2" class="field-radio">Фиксированная</label>
+                 </div>
+
+                 <div class="form-radio">
+                 <input class="field-radio-input" type="radio" name="grid" id="radio-3" value="Резиновая">
+                 <label for="radio-3" class="field-radio">Резиновая</label>
+                </div>
               </fieldset>
 
              <fieldset class="form-fieldset">
                <legend class="form-legend features">ОСОБЕННОСТИ:</legend>
-                <label class="field-checkbox">
-                 <input class="field-checkbox-input" type="checkbox" name="subscribe" checked>
-                  <span class="field-checkbox-text">Слайдер</span>
-                </label>
-                <label class="field-checkbox">
-                 <input class="field-checkbox-input" type="checkbox" name="subscribe">
-                  <span class="field-checkbox-text">Блок преимушеств</span>
-                </label>
-                <label class="field-checkbox">
-                 <input class="field-checkbox-input" type="checkbox" name="subscribe" checked>
-                  <span class="field-checkbox-text">Новости</span>
-                </label>
-                <label class="field-checkbox">
-                 <input class="field-checkbox-input" type="checkbox" name="subscribe">
-                  <span class="field-checkbox-text">Галерея</span>
-                </label>
-                <label class="field-checkbox">
-                 <input class="field-checkbox-input" type="checkbox" name="subscribe">
-                  <span class="field-checkbox-text">Корзина</span>
-                </label>
+
+                <div class="form-checkbox">
+                 <input class="field-checkbox-input" type="checkbox" name="subscribe" id="checkbox-1" checked>
+                 <label for="checkbox-1" class="field-checkbox">Слайдер</label>
+                </div>
+
+                <div class="form-checkbox">
+                 <input class="field-checkbox-input" type="checkbox" name="subscribe" id="checkbox-2">
+                  <label for="checkbox-2" class="field-checkbox">Блок преимушеств</label>
+                </div>
+
+                <div class="form-checkbox">
+                 <input class="field-checkbox-input" type="checkbox" name="subscribe" id="checkbox-3" checked>
+                 <label for="checkbox-3" class="field-checkbox">Новости</label>
+                </div>
+
+                <div class="form-checkbox">
+                 <input class="field-checkbox-input" type="checkbox" name="subscribe" id="checkbox-4">
+                 <label for="checkbox-4" class="field-checkbox">Галерея</label>
+                </div>
+
+                <div class="form-checkbox">
+                 <input class="field-checkbox-input" type="checkbox" name="subscribe" id="checkbox-5">
+                 <label for="checkbox-5" class="field-checkbox">Корзина</label>
+                </div>
               </fieldset>
                 <button class="button show" type="button">показать</button>
            </form>

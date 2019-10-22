@@ -948,49 +948,96 @@ flex-direction: column;
 .grid {
   margin-top: 47px;
 }
-
-/* картинка для радио */
-/* .field-radio-input {
-  position: relative;
-  visibility: hidden;
-  display: block;
-  margin-top: 7px;
-  margin-bottom: 4px;
-} */
-
-
-/* текст радио */
-.field-radio-text {
-  margin-left: 7px;
-  line-height: 20px;
-  vertical-align: 6px;
-  color: #283136;
+/* кнопки радио */
+.form-radio {
+  margin-top: 14px;
+  margin-bottom: 7px;
 }
-.field-radio-text:hover {
-  line-height: 20px;
-  color: #283136;
+.form-radio input[type=radio] {
+visibility: hidden;
+margin-left: -16px;
+}
+.form-radio label {
+	display: inline-block;
+	position: relative;
+	padding-left: 34px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.form-radio label:before {
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+  position: absolute;
+  left: 0;
+	bottom: 1px;
+  background: url(../img/radio-off.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.4;
+}
+/* Checked */
+.form-radio input[type=radio]:checked + label:before {
+  background: url(../img/radio-on.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+/* Hover */
+.form-radio label:hover:before {
+  /* filter: brightness(120%); */
+  opacity: 1;
 }
 /* форма особенности */
 .features {
-  margin-top: 29px;
+  margin-top: 32px;
 }
-.field-checkbox {
-  display: block;
-  margin-top: 8px;
-  margin-bottom: 5px;
+.form-checkbox {
+  margin-top: 10px;
+  margin-bottom:11px;
 }
-/* текст чекбокс */
-.field-checkbox-text {
-  margin-left: 8px;
-  line-height: 20px;
-  vertical-align: 6px;
-  color: #283136;
+.form-checkbox input[type=checkbox] {
+visibility: hidden;
+margin-left: -16px;
+}
+.form-checkbox label {
+	display: inline-block;
+	position: relative;
+	padding-left: 34px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.form-checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+  position: absolute;
+  left: 0;
+	bottom: 1px;
+  background: url(../img/checkbox-off.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.4;
+}
+/* Checked */
+.form-checkbox input[type=checkbox]:checked + label:before {
+  background: url(../img/checkbox-on.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+/* Hover */
+.form-checkbox label:hover:before {
+  /* filter: brightness(120%); */
+  opacity: 1;
 }
 
 /* кнопка в форме */
 .show {
   width: 260px;
-  margin-top: 28px;
+  margin-top: 27px;
   background-color: #eeeeee;
   color: #000000;
   }
