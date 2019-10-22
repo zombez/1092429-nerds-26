@@ -950,34 +950,14 @@ flex-direction: column;
 }
 
 /* картинка для радио */
-.field-radio {
+/* .field-radio-input {
+  position: relative;
+  visibility: hidden;
   display: block;
   margin-top: 7px;
   margin-bottom: 4px;
-}
-.form-radio-on {
-  opacity: 0.4;
-}
-.form-radio-on:hover,
-.form-radio-on:focus {
-  opacity: 1;
-}
-.form-radio-on:disabled {
-  opacity: 0.1;
-}
-.form-radio-off {
-  opacity: 0.4;
-}
-.form-radio-off:hover,
-.form-radio-off:focus {
-  opacity: 1;
-}
-.form-radio-off:disabled {
-  opacity: 0.1;
-}
-.field-radio-input {
-  display: none;
-}
+} */
+
 
 /* текст радио */
 .field-radio-text {
@@ -999,34 +979,12 @@ flex-direction: column;
   margin-top: 8px;
   margin-bottom: 5px;
 }
+/* текст чекбокс */
 .field-checkbox-text {
   margin-left: 8px;
   line-height: 20px;
   vertical-align: 6px;
   color: #283136;
-}
-.field-checkbox-on {
-  opacity: 0.4;
-}
-.field-checkbox-on:hover,
-.field-checkbox-on:focus {
-  opacity: 1;
-}
-.field-checkbox-on:disabled {
-  opacity: 0.1;
-}
-.field-checkbox-off {
-  opacity: 0.4;
-}
-.field-checkbox-off:hover,
-.field-checkbox-off:focus {
-  opacity: 1;
-}
-.field-checkbox-off:disabled {
-  opacity: 0.1;
-}
-.field-checkbox-input {
-  display: none;
 }
 
 /* кнопка в форме */
