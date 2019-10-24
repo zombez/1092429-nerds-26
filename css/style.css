@@ -569,7 +569,7 @@ sup {
   position: absolute;
   min-width: 318px;
   top: 54px;
-  left: 139px;
+  left: 138px;
   min-height: 308px;
   text-align: center;
   border: solid 1px rgba(0, 1, 1, 0.1);
@@ -585,7 +585,7 @@ sup {
 }
 .text-maps {
   margin: 0;
-  margin-top: 22px;
+  padding-top: 5px;
   margin-right: 70px;
   margin-bottom: 18px;
   padding-left: 51px;
@@ -1076,7 +1076,7 @@ display: flex;
 .field-before-imput {
   margin-top: 10px;
   margin-left: 7px;
-  padding-left: 19px;
+  padding-left: 16px;
   width: 80px;
   height: 38px;
   border: none;
@@ -1086,12 +1086,12 @@ display: flex;
 
 /* форма сетка */
 .grid {
-  margin-top: 47px;
+  padding-top: 47px;
 }
 /* кнопки радио */
 .form-radio {
-  margin-top: 12px;
-  margin-bottom: 9px;
+  padding-top: 12px;
+  padding-bottom: 9px;
 }
 .form-radio input[type=radio] {
 visibility: hidden;
@@ -1134,11 +1134,11 @@ margin-left: -16px;
 }
 /* форма особенности */
 .features {
-  margin-top: 29px;
+  padding-top: 29px;
 }
 .form-checkbox {
-  margin-top: 11px;
-  margin-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 10px;
 }
 .form-checkbox input[type=checkbox] {
 visibility: hidden;
