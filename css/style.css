@@ -567,9 +567,9 @@ sup {
 }
 .write-to-us {
   position: absolute;
-  min-width: 319px;
+  min-width: 318px;
   top: 54px;
-  left: 140px;
+  left: 139px;
   min-height: 308px;
   text-align: center;
   border: solid 1px rgba(0, 1, 1, 0.1);
@@ -577,7 +577,7 @@ sup {
 }
 .title-maps {
   margin-top: 48px;
-  margin-right: 28px;
+  margin-right: 29px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.67;
@@ -605,7 +605,7 @@ sup {
 .maps-button {
   width: 219px;
   margin-top: 37px;
-  margin-left: 49px;
+  margin-left: 50px;
 }
 
 /* подвал */
@@ -1133,8 +1133,8 @@ margin-left: -16px;
   margin-top: 29px;
 }
 .form-checkbox {
-  margin-top: 10px;
-  margin-bottom:11px;
+  margin-top: 13px;
+  margin-bottom: 9px;
 }
 .form-checkbox input[type=checkbox] {
 visibility: hidden;
