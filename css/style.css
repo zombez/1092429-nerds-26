@@ -708,8 +708,8 @@ sup {
     border: none;
   }
   .write {
-    margin-left: -520px;
-    margin-bottom: 5px;
+    padding-right: 520px;
+    padding-bottom: 5px;
   }
   .form-legend-popup {
     display: block;
