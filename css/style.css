@@ -687,6 +687,7 @@ sup {
   }
   /* попап */
   .catalog-window {
+    padding-top: 61px;
     position: absolute;
     display: none;
     width: 960px;
@@ -706,9 +707,12 @@ sup {
   .form-fieldset {
     border: none;
   }
+  .write {
+    margin-left: -520px;
+    margin-bottom: 5px;
+  }
   .form-legend-popup {
     display: block;
-    margin-top: 66px;
     margin-left: -16px;
     font-size: 45px;
     font-weight: 500;
