@@ -1111,7 +1111,7 @@ margin-left: -16px;
 	height: 25px;
   position: absolute;
   left: 0;
-	bottom: 1px;
+	bottom: -2px;
   background: url(../img/radio-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1133,8 +1133,8 @@ margin-left: -16px;
   margin-top: 29px;
 }
 .form-checkbox {
-  margin-top: 13px;
-  margin-bottom: 9px;
+  margin-top: 11px;
+  margin-bottom: 10px;
 }
 .form-checkbox input[type=checkbox] {
 visibility: hidden;
@@ -1157,7 +1157,7 @@ margin-left: -16px;
 	height: 25px;
   position: absolute;
   left: 0;
-	bottom: 1px;
+	bottom: -3px;
   background: url(../img/checkbox-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1178,7 +1178,7 @@ margin-left: -16px;
 /* кнопка в форме */
 .show {
   width: 260px;
-  margin-top: 27px;
+  margin-top: 30px;
   background-color: #eeeeee;
   color: #000000;
   }
@@ -1232,7 +1232,7 @@ margin-left: -16px;
 }
 .names-list {
   margin-top: 63px;
-  margin-right: -12px;
+  margin-right: -14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1246,8 +1246,17 @@ margin-left: -16px;
   font-size: 14px;
   text-transform: uppercase;
 }
-.names-item {
-  margin-left: 14px;
+.names-item:nth-child(1) {
+  margin-right: 11px;
+}
+.names-item:nth-child(2) {
+  margin-right: 11px;
+}
+.names-item:nth-child(3) {
+  margin-right: 32px;
+}
+.names-item:nth-child(4) {
+  margin-right: 3px;
 }
 .names-link {
   margin-right: 15px;
