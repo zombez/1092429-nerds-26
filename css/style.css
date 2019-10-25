@@ -325,6 +325,7 @@ a {
 }
 .practice-text {
   margin-top: -8px;
+  padding-right: 24px;
   color: #283136;
   line-height: 1.5;
   }
@@ -567,7 +568,7 @@ sup {
 }
 .write-to-us {
   position: absolute;
-  min-width: 318px;
+  width: 321px;
   top: 54px;
   left: 138px;
   min-height: 308px;
@@ -586,8 +587,10 @@ sup {
 .text-maps {
   margin: 0;
   padding-top: 5px;
-  margin-right: 70px;
-  margin-bottom: 18px;
+  padding-right: 61px;
+  padding-bottom: 16px;
+  /* margin-right: 70px; */
+  /* margin-bottom: 18px; */
   padding-left: 51px;
   font-size: 16px;
   font-weight: 400;
@@ -604,7 +607,7 @@ sup {
 }
 .maps-button {
   width: 219px;
-  margin-top: 37px;
+  margin-top: 39px;
   margin-left: 50px;
 }
 
