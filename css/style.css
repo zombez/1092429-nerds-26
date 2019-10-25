@@ -1389,14 +1389,15 @@ margin-left: -16px;
   color: #000000;
 }
 .card-name:hover {
-color: #fb565a;
+  color: #fb565a;
 }
 .card-name:active {
   color: rgba(0, 0, 0, 0.3);
 }
 .card-information {
-  margin-top: -4px;
-  margin-left: 2px;
+  margin-top: -3px;
+  padding-right: 88px;
+  padding-left: 90px;
   font-size: 16px;
   line-height: 1.13;
   color: #666666;
