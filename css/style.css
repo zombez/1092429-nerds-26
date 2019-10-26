@@ -43,7 +43,7 @@ html {
 
 body {
   min-width: 1200px;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -139,9 +139,10 @@ a {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image:url(../img/cart-icon.svg);
+  /* background-image:url(../img/cart-icon.svg); */
   background-repeat: no-repeat;
   background-position: 0 0;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='15' height='15' viewBox='0 0 15 15'%3e%3cmetadata%3e%3c?xpacket begin=' ' id='W5M0MpCehiHzreSzNTczkc9d'?%3e%3cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3e%3crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3e%3crdf:Description rdf:about=''/%3e%3c/rdf:RDF%3e%3c/x:xmpmeta%3e ");
 }
 
 .basket:hover {
@@ -398,8 +399,10 @@ a {
   color: #283136;
 }
 .development-title {
-  margin-top: 35px;
-  color: #283136;
+  margin-top: 39px;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
   font-weight: 700;
   line-height: 1.5;
 
@@ -699,7 +702,7 @@ sup {
     /* border: 1px solid rgba(0, 1, 1, 0.1); */
     -webkit-box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
             box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
-    background-color: #eeeeee;
+    background-color: #ffffff;
   }
   .window-form {
     margin-top: 3px;
@@ -1133,7 +1136,7 @@ margin-left: -16px;
 }
 /* форма особенности */
 .features {
-  padding-top: 29px;
+  padding-top: 26px;
 }
 .form-checkbox {
   padding-top: 11px;
@@ -1181,7 +1184,7 @@ margin-left: -16px;
 /* кнопка в форме */
 .show {
   width: 260px;
-  margin-top: 30px;
+  margin-top: 28px;
   background-color: #eeeeee;
   color: #000000;
   }
