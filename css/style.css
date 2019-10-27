@@ -1097,12 +1097,12 @@ display: flex;
 }
 .form-radio input[type=radio] {
 visibility: hidden;
-margin-left: -16px;
+margin-left: 3px;
 }
 .form-radio label {
 	display: inline-block;
 	position: relative;
-	padding-left: 34px;
+	padding-left: 14px;
 	margin-right: 0;
 	line-height: 18px;
 	-webkit-user-select: none;
@@ -1116,7 +1116,7 @@ margin-left: -16px;
 	width: 25px;
 	height: 25px;
   position: absolute;
-  left: 0;
+  left: -20px;
 	bottom: -2px;
   background: url(../img/radio-off.svg);
   background-repeat: no-repeat;
@@ -1144,12 +1144,12 @@ margin-left: -16px;
 }
 .form-checkbox input[type=checkbox] {
 visibility: hidden;
-margin-left: -16px;
+margin-left: 4px;
 }
 .form-checkbox label {
 	display: inline-block;
 	position: relative;
-	padding-left: 34px;
+	padding-left: 14px;
 	line-height: 18px;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
@@ -1162,7 +1162,7 @@ margin-left: -16px;
 	width: 25px;
 	height: 25px;
   position: absolute;
-  left: 0;
+  left: -21px;
 	bottom: -3px;
   background: url(../img/checkbox-off.svg);
   background-repeat: no-repeat;
@@ -1379,6 +1379,20 @@ margin-left: -16px;
   border: solid 1px rgba(0, 1, 1, 0.1);
   background-color: #eeeeee;
   }
+.business-card-barbershop {
+  padding-top: 4px;
+  padding-right: 3px;
+}
+.business-card-mishka {
+  padding-top: 4px;
+  padding-right: 3px;
+}
+.business-card-aplus {
+  padding-right: 3px;
+}
+.business-card-kvast {
+  padding-right: 3px;
+}
 .card:hover .business-card,
 .card:focus .business-card {
   display: block;
@@ -1404,6 +1418,26 @@ margin-left: -16px;
   font-size: 16px;
   line-height: 1.13;
   color: #666666;
+}
+.pink {
+  padding-right: 55px;
+  padding-left: 56px;
+}
+.barbershop {
+  padding-left: 94px;
+  padding-right: 92px;
+}
+.mishka {
+  padding-left: 94px;
+  padding-right: 92px;
+}
+.aplus {
+  padding-left: 44px;
+  padding-right: 40px;
+}
+.kvast {
+  padding-left: 44px;
+  padding-right: 40px;
 }
 .cost {
   display: block;
