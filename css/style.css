@@ -1272,7 +1272,7 @@ sup {
 .form-radio label {
 	display: inline-block;
 	position: relative;
-	padding-left: 14px;
+	padding-left: 16px;
 	margin-right: 0;
 	line-height: 18px;
 	-webkit-user-select: none;
@@ -1287,7 +1287,7 @@ sup {
 	width: 25px;
 	height: 25px;
 	position: absolute;
-	left: -20px;
+	left: -19px;
 	bottom: -2px;
 	background: url(../img/radio-off.svg);
 	background-repeat: no-repeat;
@@ -1316,7 +1316,7 @@ sup {
 /* форма особенности */
 
 .features {
-	padding-top: 26px;
+	padding-top: 29px;
 }
 
 .form-checkbox {
@@ -1376,7 +1376,7 @@ sup {
 
 .show {
 	width: 260px;
-	margin-top: 28px;
+	margin-top: 30px;
 	background-color: #eeeeee;
 	color: #000000;
 }
