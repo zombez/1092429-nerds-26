@@ -1501,7 +1501,6 @@ sup {
 .down path:hover,
 .down path:focus {
 	fill: #a6a6a6;
-	;
 }
 
 .down path:active {
@@ -1519,7 +1518,6 @@ sup {
 .up path:hover,
 .up path:focus {
 	fill: #a6a6a6;
-	;
 }
 
 .up path:active {
