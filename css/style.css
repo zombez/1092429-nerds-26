@@ -164,10 +164,9 @@ a {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	/* background-image:url(../img/cart-icon.svg); */
+	background-image:url(../img/basket-icon.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='15' height='15' viewBox='0 0 15 15'%3e%3cmetadata%3e%3c?xpacket begin=' ' id='W5M0MpCehiHzreSzNTczkc9d'?%3e%3cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3e%3crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3e%3crdf:Description rdf:about=''/%3e%3c/rdf:RDF%3e%3c/x:xmpmeta%3e ");
 }
 
 .basket:hover {
