@@ -1527,6 +1527,7 @@ sup {
 /* карточки */
 
 .filter-templates {
+  width: 760px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
